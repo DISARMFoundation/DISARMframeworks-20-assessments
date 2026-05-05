@@ -8,81 +8,39 @@
 <th>phase_id</th>
 </tr>
 <tr>
-<td><a href="tactics/TA19.md">TA19</a></td>
-<td>Accounts, Software, and Infrastructure</td>
-<td></td>
-<td>P05</td>
+<td><a href="tactics/TA80.md">TA80</a></td>
+<td>Within Campaign Impact</td>
+<td>Impacts activity have within a campaign, e.g. how behaviour impacts perceived legitimacy of a campaign asset, reach of campaign content, e.t.c.</td>
+<td>P20</td>
 </tr>
 <tr>
-<td><a href="tactics/TA20.md">TA20</a></td>
-<td>Digital Platforms and Communities</td>
-<td></td>
-<td>P05</td>
+<td><a href="tactics/TA81.md">TA81</a></td>
+<td>External to Campaign Impact</td>
+<td>Impacts activity have external to a campaign, e.g. how behaviour impacts targeted individuals or institutions, geopolitics, or the information ecosystem.</td>
+<td>P20</td>
 </tr>
 <tr>
-<td><a href="tactics/TA21.md">TA21</a></td>
-<td>Asset Details</td>
-<td></td>
-<td>P05</td>
+<td><a href="tactics/TA85.md">TA85</a></td>
+<td>Online Techniques</td>
+<td>Techniques deployed as part of online Influence Operations by threat actors with the goal of achieving Tactical objectives.</td>
+<td>P21</td>
 </tr>
 <tr>
-<td><a href="tactics/TA22.md">TA22</a></td>
-<td>Asset Persona</td>
-<td></td>
-<td>P05</td>
+<td><a href="tactics/TA90.md">TA90</a></td>
+<td>Scales Developed by non-DISARM Defenders</td>
+<td>Scales / Frameworks which have been developed by non-DISARM individuals or organisations defending against Influence Operations.</td>
+<td>P22</td>
 </tr>
 <tr>
-<td><a href="tactics/TA23.md">TA23</a></td>
-<td>Publishing and Amplifying Actions</td>
-<td></td>
-<td>P06</td>
+<td><a href="tactics/TA91.md">TA91</a></td>
+<td>Vulnerability Exploited</td>
+<td>Cognitive, Technical, or Social vulnerabilities which have impacted a potential incident.</td>
+<td>P22</td>
 </tr>
 <tr>
-<td><a href="tactics/TA24.md">TA24</a></td>
-<td>Asset Management</td>
-<td></td>
-<td>P06</td>
-</tr>
-<tr>
-<td><a href="tactics/TA25.md">TA25</a></td>
-<td>Interact with Platform and Community</td>
-<td></td>
-<td>P06</td>
-</tr>
-<tr>
-<td><a href="tactics/TA26.md">TA26</a></td>
-<td>Offline Actions</td>
-<td></td>
-<td>P06</td>
-</tr>
-<tr>
-<td><a href="tactics/TA27.md">TA27</a></td>
-<td>Actions Taken by Platforms and Governments</td>
-<td></td>
-<td>P06</td>
-</tr>
-<tr>
-<td><a href="tactics/TA28.md">TA28</a></td>
-<td>Content Acquisition</td>
-<td></td>
-<td>P07</td>
-</tr>
-<tr>
-<td><a href="tactics/TA29.md">TA29</a></td>
-<td>Content Details</td>
-<td>This category contains Techniques and Sub-Techniques which can be used to describe online content; its format (e.g. is it text? Video? Audio?), how it's styled (has it been made to look like a news report? A meme? A fact check?), and any anomalies with the content unrelated to narratives.</td>
-<td>P07</td>
-</tr>
-<tr>
-<td><a href="tactics/TA30.md">TA30</a></td>
-<td>Content Narrative</td>
-<td></td>
-<td>P07</td>
-</tr>
-<tr>
-<td><a href="tactics/TA31.md">TA31</a></td>
-<td>Content Action</td>
-<td></td>
-<td>P07</td>
+<td><a href="tactics/TA92.md">TA92</a></td>
+<td>Actor Analysis</td>
+<td>Assessments analysts can make about actors behind an Influence Operation.</td>
+<td>P22</td>
 </tr>
 </table>

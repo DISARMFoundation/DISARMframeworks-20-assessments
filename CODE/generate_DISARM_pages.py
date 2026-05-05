@@ -180,9 +180,9 @@ class Disarm:
     def create_incident_technique_crosstable(self, it_metadata):
         # Generate full cross-table between incidents and techniques
 
-        it = it_metadata
-        it.index=it['disarm_id']
-        it = it['technique_ids'].str.split(',').apply(lambda x: pd.Series(x)).stack().reset_index(level=1, drop=True).to_frame('technique_id').reset_index().merge(it.drop('disarm_id', axis=1).reset_index()).drop('technique_ids', axis=1)
+        it = it_metadata.copy()
+        it['technique_ids'] = it['technique_ids'].str.split(',')
+        it = it.explode('technique_ids').rename(columns={'technique_ids': 'technique_id'}).reset_index(drop=True)
         it = it.merge(self.df_incidents[['disarm_id','name']], 
                       left_on='incident_id', right_on='disarm_id',
                       suffixes=['','_incident']).drop('incident_id', axis=1)
@@ -573,10 +573,20 @@ class Disarm:
                     metatext = template.format(type='Task', id=row['disarm_id'], name=row['name'],
                                                tactic=row['tactic_id'], summary=row['summary'])
                 if objecttype == 'technique':
-                    tactic_name = self.df_tactics.loc[self.df_tactics['disarm_id'] == row['tactic_id'], 'name'].values[0]
+                    _tactic_vals = self.df_tactics.loc[self.df_tactics['disarm_id'] == row['tactic_id'], 'name'].values
+                    if len(_tactic_vals) > 0:
+                        tactic_name = _tactic_vals[0]
+                    else:
+                        tactic_name = ''
+                        print(f"WARNING: tactic_id '{row['tactic_id']}' not found in tactics sheet (technique {row['disarm_id']})", flush=True)
                     if "." in row['disarm_id']:
                         parent_technique_id = row['disarm_id'].split(".")[0]
-                        parent_technique_name = self.df_techniques.loc[self.df_techniques['disarm_id'] == parent_technique_id, 'name'].values[0]
+                        _pt_vals = self.df_techniques.loc[self.df_techniques['disarm_id'] == parent_technique_id, 'name'].values
+                        if len(_pt_vals) > 0:
+                            parent_technique_name = _pt_vals[0]
+                        else:
+                            parent_technique_name = ''
+                            print(f"WARNING: parent technique '{parent_technique_id}' not found in techniques sheet (technique {row['disarm_id']})", flush=True)
                         parent_technique = "<br><br>**Parent Technique:** " + parent_technique_id + ' ' + parent_technique_name
                     else:   
                         parent_technique = ''
