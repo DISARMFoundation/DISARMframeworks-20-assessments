@@ -2,10 +2,11 @@ from stix2 import MarkingDefinition, StatementMarking
 from objects import identity
 
 
-def make_disarm_marking_definition(identity_id):
+def make_disarm_marking_definition(stix_ids):
     marking_definition = MarkingDefinition(
         definition_type="statement",
-        created_by_ref=identity_id,
+        id=stix_ids["marking-definition"]["DISARM Foundation"],
+        created_by_ref=stix_ids["identity"]["DISARM Foundation"],
         name="DISARM Foundation",
         definition=StatementMarking(statement="CC-BY-SA-4.0 DISARM Foundation")
     )

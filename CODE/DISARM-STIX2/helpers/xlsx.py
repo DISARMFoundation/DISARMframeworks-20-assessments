@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def load_excel_data(infile):
+def load_excel_data(infile="../../DISARM_MASTER_DATA/DISARM_FRAMEWORKS_MASTER.xlsx"):
     """Load an xlsx document.
 
     Args:

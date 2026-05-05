@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5e8d9cd-a495-4dd8-8aa0-e46230ea5b65",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7a20b219-aa55-4db1-80e7-b8108c431cc0",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21929Z",
+            "modified": "2026-05-05T10:48:25.21929Z",
+            "name": "Break Association with Content",
+            "description": "Activity has been assessed to have masked the association between assets used and the content produced as part of an operation",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.001.md",
+                    "external_id": "A0003.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

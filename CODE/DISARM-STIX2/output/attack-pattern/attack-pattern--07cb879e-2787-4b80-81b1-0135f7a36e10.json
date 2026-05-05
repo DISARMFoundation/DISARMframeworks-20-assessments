@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--35e5c483-caf1-4325-a307-e273ca367504",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--07cb879e-2787-4b80-81b1-0135f7a36e10",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.248182Z",
+            "modified": "2026-05-05T10:48:25.248182Z",
+            "name": "Low Quality Non-English Language Moderation",
+            "description": "Western platforms have been documented to have [lower quality moderation when operating in non-English languages.](https://globalwitness.org/en/campaigns/digital-threats/how-big-tech-platforms-are-neglecting-their-non-english-language-users/) This can result in erroneous moderation action, or in continuing to host Assets or Content which goes against the platform's stated terms of service.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7002.001.md",
+                    "external_id": "A7002.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--b318240a-14c9-4f59-8ee8-678357a79e70",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--009babde-59f0-42f2-bba8-3b532fa9fb68",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:38:29.450683Z",
+            "modified": "2026-05-05T10:38:29.450683Z",
+            "name": "Actor Analysis",
+            "description": "Assessments analysts can make about actors behind an Influence Operation.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA92.md",
+                    "external_id": "TA92"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "actor-analysis"
+        }
+    ]
+}

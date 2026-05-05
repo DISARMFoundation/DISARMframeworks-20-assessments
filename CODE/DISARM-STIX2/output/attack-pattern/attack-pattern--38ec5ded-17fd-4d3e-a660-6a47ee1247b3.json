@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d601b6f-4dc8-4690-95ba-7c65e210dce1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--38ec5ded-17fd-4d3e-a660-6a47ee1247b3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.246667Z",
+            "modified": "2026-05-05T10:48:25.246667Z",
+            "name": "Cognitive Vulnerability",
+            "description": "Types of cognitive vulnerabilities; Inherent weaknesses in unconscious thinking patterns that distort a person's judgment and decision-making, which can contribute to the propagation of information disorder.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7001.md",
+                    "external_id": "A7001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

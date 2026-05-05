@@ -1,6 +1,6 @@
 # A STIX bundle generator for the DISARM Framework.
 #
-# Author: Roger Johnston, Twitter: @VV_X_7
+# Author: VVX7
 # License: GPL-3
 
 import pandas as pd
@@ -14,24 +14,23 @@ import helpers
 from objects import tactic, technique, matrix, bundle, relationship, identity, marking_definition
 from helpers import xlsx, file
 
-
 def generate_disarm_stix():
     """Generates a DISARM STIX bundle.
 
     Returns:
 
     """
-    data = helpers.xlsx.load_excel_data("../DISARM_MASTER_DATA/DISARM_FRAMEWORKS_MASTER.xlsx")
+    data = helpers.xlsx.load_excel_data()
+    stix_ids = file.read_stix_id_file("stix_ids.json")
 
-    disarm_identity = identity.make_disarm_identity()
-    identity_id = disarm_identity[0]["id"]
-    disarm_marking_definition = marking_definition.make_disarm_marking_definition(identity_id)
+    disarm_identity = identity.make_disarm_identity(stix_ids)
+    disarm_marking_definition = marking_definition.make_disarm_marking_definition(stix_ids)
     marking_id = disarm_marking_definition[0]["id"]
 
-    tactics = tactic.make_disarm_tactics(data, identity_id, marking_id)
-    techniques = technique.make_disarm_techniques(data, identity_id, marking_id)
+    tactics = tactic.make_disarm_tactics(data, stix_ids)
+    techniques = technique.make_disarm_techniques(data, stix_ids)
     subtechnique_relationships = relationship.make_disarm_subtechnique_relationships(techniques, marking_id)
-    navigator_matrix = matrix.make_disarm_matrix(tactics)
+    navigator_matrix = matrix.make_disarm_matrix(data, tactics, stix_ids)
 
     stix_objects = []
     stix_objects.append(tactics)

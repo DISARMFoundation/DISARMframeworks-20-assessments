@@ -15,7 +15,7 @@ class Matrix(object):
             pass
 
 
-def make_disarm_matrix(tactics):
+def make_disarm_matrix(data, tactics, stix_ids):
     """Creates a Matrix object.
 
     Args:
@@ -24,7 +24,8 @@ def make_disarm_matrix(tactics):
     Returns:
 
     """
-    description = 'DISARM is a framework designed for describing and understanding disinformation incidents.'
+    identity_id = stix_ids["x-mitre-matrix"]["DISARM Framework"]
+    description = 'The DISARM V2 Assessments Framework standardizes the descriptions of assessments made by analysts which pertain to suspected adversary operations or campaigns.'
     external_references = [
         {
             "external_id": "DISARM",
@@ -32,11 +33,19 @@ def make_disarm_matrix(tactics):
             "url": "https://github.com/DISARMFoundation"
         }
     ]
-    name = 'DISARM Framework'
+    name = 'DISARM V2 Assessments Framework'
 
-    tactic_refs = [i.id for i in tactics]
+    tactics_data = data["tactics"].sort_values('rank').values.tolist()
+
+    tactic_refs = []
+    for i in tactics_data:
+        for t in tactics:
+            if i[1] == t.name:
+                tactic_refs.append(t.id)
+
 
     matrix = Matrix(
+        id=identity_id,
         name=name,
         description=description,
         external_references=external_references,

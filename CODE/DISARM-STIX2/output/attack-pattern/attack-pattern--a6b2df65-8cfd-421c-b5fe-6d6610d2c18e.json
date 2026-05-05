@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1468faa8-3e3c-479d-a825-fbaa5d3a3631",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a6b2df65-8cfd-421c-b5fe-6d6610d2c18e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.242637Z",
+            "modified": "2026-05-05T10:48:25.242637Z",
+            "name": "Flood an Online Information Space",
+            "description": "An asset has flooded an online information space by publishing content there many times, or many collaborating assets have flooded an online information space by each concurrently posting a small amount of content, or both",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "online-techniques"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A2001.002.md",
+                    "external_id": "A2001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--d660856c-3075-44cd-884f-5230cea3dc94",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a019f241-433c-449b-bf38-378bd5204b28",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "Scales Developed by non-DISARM Defenders",
+            "description": "Scales / Frameworks which have been developed by non-DISARM individuals or organisations defending against Influence Operations.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA90.md",
+                    "external_id": "TA90"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "scales-developed-by-non-disarm-defenders"
+        }
+    ]
+}

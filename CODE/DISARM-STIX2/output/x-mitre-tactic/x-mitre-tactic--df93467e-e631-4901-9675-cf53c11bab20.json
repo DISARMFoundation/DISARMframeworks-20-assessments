@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--41aa2604-9710-455f-9c19-64ca4b27f58a",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--df93467e-e631-4901-9675-cf53c11bab20",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "Online Techniques",
+            "description": "Techniques deployed as part of online Influence Operations by threat actors with the goal of achieving Tactical objectives.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA85.md",
+                    "external_id": "TA85"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "online-techniques"
+        }
+    ]
+}

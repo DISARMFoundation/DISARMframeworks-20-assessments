@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a7c9ec1-8f2b-47f3-ab78-24eccd16e6c1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--980513b5-88b1-4815-b614-25197666f2cf",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.25018Z",
+            "modified": "2026-05-05T10:48:25.25018Z",
+            "name": "Actor Awareness",
+            "description": "This category contains assessments analysts can make about whether an individual was aware that they were contributing to an influence operation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8002.md",
+                    "external_id": "A8002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

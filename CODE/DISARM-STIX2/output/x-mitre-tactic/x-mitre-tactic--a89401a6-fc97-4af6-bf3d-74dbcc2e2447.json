@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d17c384-5a6d-4d96-b87d-c0b7b4dae159",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a89401a6-fc97-4af6-bf3d-74dbcc2e2447",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "External to Campaign Impact",
+            "description": "Impacts activity have external to a campaign, e.g. how behaviour impacts targeted individuals or institutions, geopolitics, or the information ecosystem.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA81.md",
+                    "external_id": "TA81"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "external-to-campaign-impact"
+        }
+    ]
+}

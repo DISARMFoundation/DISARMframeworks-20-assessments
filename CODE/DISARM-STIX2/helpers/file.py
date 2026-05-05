@@ -3,9 +3,8 @@ import os
 from stix2 import Bundle
 import shutil
 
-outdir = '../generated_files/DISARM_STIX/'
 
-def write_disarm_dir(dir, outdir=outdir):
+def write_disarm_dir(dir):
     """
 
      Args:
@@ -15,32 +14,35 @@ def write_disarm_dir(dir, outdir=outdir):
 
     """
     try:
-        os.mkdir(outdir)
+        os.mkdir('output/')
     except FileExistsError:
         pass
 
     try:
-        os.mkdir(outdir + dir)
+        os.mkdir('output/' + dir)
     except FileExistsError:
         pass
 
 
-def clean_output_dir(outdir=outdir):
+def clean_output_dir():
     """Recursively delete the output folder.
 
     Returns:
 
     """
-    try:
-        os.mkdir(outdir)
-    except FileExistsError:
-        pass
+    # was getting permissions error on rmtree, because git had created files readonly by default
+    import os
+    import stat
+    import shutil
 
-    shutil.rmtree(outdir)
+    def handle_remove_readonly(func, path, exc_info):
+        os.chmod(path, stat.S_IWRITE)
+        func(path)
+        shutil.rmtree("output/", onexc=handle_remove_readonly)
 
 
 def write_file(file_name, file_data):
-    """Write a JSON file to outdir
+    """Write a JSON file to ./output.
 
     Args:
         file_name (str): a file name
@@ -55,7 +57,7 @@ def write_file(file_name, file_data):
         f.write('\n')
 
 
-def write_files(stix_objects, outdir=outdir):
+def write_files(stix_objects):
     """
 
     Args:
@@ -66,10 +68,10 @@ def write_files(stix_objects, outdir=outdir):
     """
     for i in stix_objects:
         write_disarm_dir(i.type)
-        write_file(outdir+f"{i.type}/{i.id}.json", Bundle(i, allow_custom=True))
+        write_file(f"output/{i.type}/{i.id}.json", Bundle(i, allow_custom=True))
 
 
-def write_bundle(bundle, bundle_name, outdir=outdir):
+def write_bundle(bundle, bundle_name):
     """
 
     Args:
@@ -79,4 +81,11 @@ def write_bundle(bundle, bundle_name, outdir=outdir):
     Returns:
 
     """
-    write_file(outdir+f"{bundle_name}.json", bundle)
+    write_file(f"output/{bundle_name}.json", bundle)
+
+
+def read_stix_id_file(file_name):
+    with open(file_name, 'r') as f:
+        data = json.load(f)
+        return data
+
