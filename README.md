@@ -51,6 +51,8 @@ If you have your own version of this repository and update DISARM_FRAMEWORKS_MAS
 
 ## Who's Responsible for DISARM (and a little history)
 
+* In 2026, we added the 2.0 Assessments Framework, including support for the DISARM Navigator. The Navigator can be accessed here **[DISARM 2.0 Assessments Framework](https://disarmfoundation.github.io/disarm-navigator-mv/)**. Choose "Create New Layer" then "DISARM v2.0 Assessments. 
+
 * In 2025, we added the 2.0 Observations Framework, including support for the DISARM Navigator and the DISARM Add-In for Microsoft Word. The Navigator can be accessed here **[DISARM 2.0 Observations Framework](https://disarmfoundation.github.io/disarm-navigator-20-observable/)**. The Manifest file for the DISARM Add-In for Microsoft Word can be accessed here **[Manifest](CODE/manifest2.0.xml)**. Installation instructions are here [for Word on MacOS](https://learn.microsoft.com/en-us/office/dev/add-ins/testing/sideload-an-office-add-in-on-mac), [for Word on Windows]( https://learn.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins), and [for Word on the Web]( https://learn.microsoft.com/en-us/office/dev/add-ins/testing/sideload-office-add-ins-for-testing).  
 
 * Now: **[DISARM Foundation](https://www.disarm.foundation/)** maintains and updates the DISARM family of models: DISARM-STIX, the DISARM Red framework (of disinformation creation), and the DISARM Blue framework (of disinformation countermeasures and mitigations).  
