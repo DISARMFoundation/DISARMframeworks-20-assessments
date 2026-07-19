@@ -1,4 +1,4 @@
-# DISARM Techniques:
+# DISARM Assessments:
 
 <table border="1">
 <tr>
