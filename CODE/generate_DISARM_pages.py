@@ -81,6 +81,10 @@ GENERATED_PAGES_FUDGE = '../' + GENERATED_PAGES_DIR
 GENERATED_FILES_DIR = '../generated_files/'
 MASTERDATA_DIR = '../DISARM_MASTER_DATA/'
 
+# Display-only relabeling for generated web page column headers.
+# Does not rename the underlying spreadsheet columns used for data lookup.
+HEADER_LABELS = {'phase_id': 'group_id', 'tactic_id': 'category_id', 'tactic': 'category'}
+
 class Disarm:
 
     
@@ -301,7 +305,7 @@ class Disarm:
     def create_incident_techniques_string(self, incidentid):
 
         techstr = '''
-| Technique | Description given for this incident |
+| Assessment | Description given for this incident |
 | --------- | ------------------------- |
 '''
         techrow = '| [{0} {1}]({2}techniques/{0}.md) | {3} |\n'
@@ -315,7 +319,7 @@ class Disarm:
     def create_associated_techniques_string(self, techniqueid):
 
         techstr = '''
-| Associated Technique | Description |
+| Associated Assessment | Description |
 | --------- | ------------------------- |
 '''
         techrow = '| [{0} {1}]({2}techniques/{0}.md) | {3} |\n'
@@ -341,7 +345,7 @@ class Disarm:
     def create_tactic_techniques_string(self, tactic_id):
 
         table_string = '''
-| Techniques |
+| Assessments |
 | ---------- |
 '''
         tactic_techniques = self.df_techniques[self.df_techniques['tactic_id']==tactic_id]
@@ -413,7 +417,7 @@ class Disarm:
 
     def create_counter_tactics_string(self, counter_id):
         table_string = '''
-| Counters these Tactics |
+| Counters these Categories |
 | ---------------------- |
 '''
         # tactic_counters = self.df_counters[self.df_counters['tactic_id']==tactic_id]
@@ -424,7 +428,7 @@ class Disarm:
 
     def create_counter_techniques_string(self, counter_id):
         table_string = '''
-| Counters these Techniques |
+| Counters these Assessments |
 | ------------------------- |
 '''
         counter_techniques = self.cross_counterid_techniqueid[self.cross_counterid_techniqueid['disarm_id']==counter_id]
@@ -446,11 +450,13 @@ class Disarm:
         return table_string
 
 
-    def write_object_index_to_file(self, objectname, objectcols, dfobject, outfile):
+    def write_object_index_to_file(self, objectname, objectcols, dfobject, outfile, headerlabels=None):
         ''' Write HTML version of incident list to markdown file
 
         Assumes that dfobject has columns named 'disarm_id' and 'name'
         '''
+
+        headerlabels = headerlabels or {}
 
         html = '''# DISARM {}:
 
@@ -460,7 +466,7 @@ class Disarm:
 
         # Create header row
         html += '<th>{}</th>\n'.format('disarm_id')
-        html += ''.join(['<th>{}</th>\n'.format(col) for col in objectcols])
+        html += ''.join(['<th>{}</th>\n'.format(headerlabels.get(col, col)) for col in objectcols])
         html += '</tr>\n'
 
         # Add row for each object
@@ -482,10 +488,12 @@ class Disarm:
         '''
         self.write_object_index_to_file(
             'response types', ['name', 'summary'],
-            self.df_responsetypes, GENERATED_PAGES_DIR + 'responsetype_index.md')
+            self.df_responsetypes, GENERATED_PAGES_DIR + 'responsetype_index.md',
+            headerlabels=HEADER_LABELS)
         self.write_object_index_to_file(
             'detections', ['name', 'summary', 'metatechnique', 'tactic', 'responsetype'],
-            self.df_detections, GENERATED_PAGES_DIR + 'detections_index.md')
+            self.df_detections, GENERATED_PAGES_DIR + 'detections_index.md',
+            headerlabels=HEADER_LABELS)
 
         return
 
@@ -535,8 +543,9 @@ class Disarm:
             if not os.path.exists(objecttypedir):
                 os.makedirs(objecttypedir)
             self.write_object_index_to_file(objecttypeplural, indexrows[objecttype],
-                                            metadata[objecttype], 
-                                            GENERATED_PAGES_DIR + '{}_index.md'.format(objecttypeplural))
+                                            metadata[objecttype],
+                                            GENERATED_PAGES_DIR + '{}_index.md'.format(objecttypeplural),
+                                            headerlabels=HEADER_LABELS)
 
             # Update or create file for every object with this objecttype type
             template = open('page_templates/template_{}.md'.format(objecttype), 'r', encoding='utf-8').read()
@@ -562,9 +571,9 @@ class Disarm:
 
                 # Now populate datafiles with new metadata plus old userdata
                 if objecttype == 'phase':
-                    metatext = template.format(type='Phase', id=row['disarm_id'], name=row['name'], summary=row['summary'])
+                    metatext = template.format(type='Group', id=row['disarm_id'], name=row['name'], summary=row['summary'])
                 if objecttype == 'tactic':
-                    metatext = template.format(type = 'Tactic', id=row['disarm_id'], name=row['name'],
+                    metatext = template.format(type = 'Category', id=row['disarm_id'], name=row['name'],
                                                phase=row['phase_id'], summary=row['summary'],
                                                tasks=self.create_tactic_tasks_string(row['disarm_id']),
                                                techniques=self.create_tactic_techniques_string(row['disarm_id']),
@@ -587,10 +596,10 @@ class Disarm:
                         else:
                             parent_technique_name = ''
                             print(f"WARNING: parent technique '{parent_technique_id}' not found in techniques sheet (technique {row['disarm_id']})", flush=True)
-                        parent_technique = "<br><br>**Parent Technique:** " + parent_technique_id + ' ' + parent_technique_name
-                    else:   
+                        parent_technique = "<br><br>**Parent Assessment:** " + parent_technique_id + ' ' + parent_technique_name
+                    else:
                         parent_technique = ''
-                    metatext = template.format(type = 'Technique', id=row['disarm_id'], name=row['name'],
+                    metatext = template.format(type = 'Assessment', id=row['disarm_id'], name=row['name'],
                                                tactic=f"{row['tactic_id']} {tactic_name} {parent_technique}", summary=row['summary'],
                                                associatedtechniques=self.create_associated_techniques_string(row['disarm_id']),
                                                incidents=self.create_technique_incidents_string(row['disarm_id']),
@@ -823,13 +832,13 @@ function handleTechniqueClick(box) {{
         return coverage, possible_counters_for_techniques, possible_techniques_for_counters
 
     
-    def write_counts_table_to_file(self, objectname, objectdict, counts_table, outfile):
+    def write_counts_table_to_file(self, objectname, objectdict, counts_table, outfile, label=None):
         html = '''# DISARM {} courses of action
 
 <table border="1">
 <tr>
 <td> </td>
-    '''.format(objectname.capitalize())
+    '''.format((label or objectname).capitalize())
 
         # Table heading row
         for col in counts_table.columns.get_level_values(1)[:-1]:
@@ -866,7 +875,7 @@ function handleTechniqueClick(box) {{
                                   fill_value=0) 
         counts_table['TOTALS'] = counts_table.sum(axis=1)
 
-        self.write_counts_table_to_file('tactic', self.tactics, counts_table, outfile)
+        self.write_counts_table_to_file('tactic', self.tactics, counts_table, outfile, label='category')
         return
 
 

@@ -5,7 +5,7 @@
 <th>disarm_id</th>
 <th>name</th>
 <th>summary</th>
-<th>phase_id</th>
+<th>group_id</th>
 </tr>
 <tr>
 <td><a href="tactics/TA80.md">TA80</a></td>
