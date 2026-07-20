@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb21ca23-a79d-45b7-93ab-7a9f52d73661",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae03632d-eeda-47e2-bff5-329d109a5813",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.494694Z",
+            "modified": "2026-07-20T08:47:14.494694Z",
+            "name": "Activity Introduces Another Narrative which Competes with Target Narrative",
+            "description": "Activity has been assessed to have produced a narrative which contrasts another narrative which previously existed.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.002.md",
+                    "external_id": "A1003.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,22 +1,22 @@
 {
     "type": "bundle",
-    "id": "bundle--54f0749f-9b39-4a1c-9672-e71f504bd66d",
+    "id": "bundle--aaa70d0d-f9a9-457c-b2b3-f00f80e15b9d",
     "objects": [
         {
             "type": "x-mitre-matrix",
             "spec_version": "2.1",
             "id": "x-mitre-matrix--0e0c1597-4b7d-43f1-b768-1c4a253c44df",
-            "created": "2026-05-05T10:38:29.462808Z",
-            "modified": "2026-05-05T10:38:29.462808Z",
+            "created": "2026-07-20T08:47:14.561463Z",
+            "modified": "2026-07-20T08:47:14.561463Z",
             "name": "DISARM V2 Assessments Framework",
             "description": "The DISARM V2 Assessments Framework standardizes the descriptions of assessments made by analysts which pertain to suspected adversary operations or campaigns.",
             "tactic_refs": [
-                "x-mitre-tactic--5def3366-e11c-4dea-98be-d0dcb94b479a",
-                "x-mitre-tactic--ed06c0cb-c533-4e11-a24b-47dd0af05c0a",
-                "x-mitre-tactic--57a09c6c-506e-4e75-83d4-a61f2d5fb2e9",
-                "x-mitre-tactic--d865ef3f-4132-4a33-a15b-1da260cb03b0",
-                "x-mitre-tactic--a4190814-850b-4eee-aa1a-ea578d40f889",
-                "x-mitre-tactic--009babde-59f0-42f2-bba8-3b532fa9fb68"
+                "x-mitre-tactic--5da0543e-4227-4c03-bf52-4dcfc1c2db02",
+                "x-mitre-tactic--2c3fe72a-da40-4b9d-8376-f01f4e391922",
+                "x-mitre-tactic--f50950a7-486c-41a6-b64e-69ff0fc01bfa",
+                "x-mitre-tactic--cef7b53a-4521-4546-ada5-218b4e88f859",
+                "x-mitre-tactic--c14b04a3-2402-48c4-b663-8c02173b705e",
+                "x-mitre-tactic--9ca74af4-af3e-48c2-96da-a23088cd6dde"
             ],
             "external_references": [
                 {

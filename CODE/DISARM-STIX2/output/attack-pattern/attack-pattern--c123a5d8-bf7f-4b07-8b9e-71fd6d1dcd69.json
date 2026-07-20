@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e33f3648-b0fc-4456-b7d4-33ebe35d9489",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c123a5d8-bf7f-4b07-8b9e-71fd6d1dcd69",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.529983Z",
+            "modified": "2026-07-20T08:47:14.529983Z",
+            "name": "Illusory Truth Effect",
+            "description": "The Illusory Truth Effect refers to the phenomenon where [individuals who are repeatedly exposed to a piece of information are more likely to believe it is true information.](https://www.sciencedirect.com/science/article/abs/pii/S2352250X23001811).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7001.001.md",
+                    "external_id": "A7001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

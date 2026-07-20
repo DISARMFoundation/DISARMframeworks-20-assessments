@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a3008d1-c970-4263-a28a-c180bb26c528",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--02caace7-aafc-4ac2-82ca-105cf0130cda",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.529983Z",
+            "modified": "2026-07-20T08:47:14.529983Z",
+            "name": "Emotionally Motivated Participant",
+            "description": "The individual who took action as part of an incident has been assessed to have done so because they were emotionally motivated (e.g. they acted out of anger, or fear).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8001.003.md",
+                    "external_id": "A8001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--296ea482-181c-40d0-a0b0-28390f2f182c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--43f3b800-355c-42f7-abcf-ea48c0cf8f70",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.503549Z",
+            "modified": "2026-07-20T08:47:14.503549Z",
+            "name": "Economic Geopolitical Advantage",
+            "description": "Activity has been assessed to have an economic geopolitical advantage.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1006.001.md",
+                    "external_id": "A1006.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

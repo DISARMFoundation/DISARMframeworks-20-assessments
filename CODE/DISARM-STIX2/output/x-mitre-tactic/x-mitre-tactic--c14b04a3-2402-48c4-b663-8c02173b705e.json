@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--e9732f4c-5d04-433a-84eb-342e2f8b02cf",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--c14b04a3-2402-48c4-b663-8c02173b705e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.475696Z",
+            "modified": "2026-07-20T08:47:14.475696Z",
+            "name": "Vulnerability Exploited",
+            "description": "Cognitive, Technical, or Social vulnerabilities which have impacted a potential incident.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA91.md",
+                    "external_id": "TA91"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "vulnerability-exploited"
+        }
+    ]
+}

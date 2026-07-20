@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--313c1566-1eab-4e5c-b1b7-9d6cbeb37833",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9b8ac46c-0540-458a-93cf-0b98398ca2b2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.504547Z",
+            "modified": "2026-07-20T08:47:14.504547Z",
+            "name": "Decision to Act Influenced by Activity",
+            "description": "Activity has been assessed to have contributed to the choice for another individual or institution to take an action.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1007.001.md",
+                    "external_id": "A1007.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

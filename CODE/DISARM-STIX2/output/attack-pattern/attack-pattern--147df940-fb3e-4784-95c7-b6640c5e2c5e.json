@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf1944eb-a5c5-44bc-bb08-6efadfecd1a2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--147df940-fb3e-4784-95c7-b6640c5e2c5e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.486688Z",
+            "modified": "2026-07-20T08:47:14.486688Z",
+            "name": "Distance Individuals from Operation",
+            "description": "Activity has been assessed to have masked the association between individuals associated with the operation and the operation itself.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.004.md",
+                    "external_id": "A0003.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

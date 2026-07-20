@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b7a2a0c-c25f-45db-901e-4e1f69f3a765",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9cc100ea-b2c3-4f76-898d-6c2d625007b5",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.493695Z",
+            "modified": "2026-07-20T08:47:14.493695Z",
+            "name": "Behaviour which is Target of Activity is Justified",
+            "description": "Activity has been assessed to have justified behaviour of a target.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.007.md",
+                    "external_id": "A1002.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

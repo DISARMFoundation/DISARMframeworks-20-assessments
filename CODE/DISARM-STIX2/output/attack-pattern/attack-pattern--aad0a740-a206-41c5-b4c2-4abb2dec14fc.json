@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--88589a09-f847-4c47-9561-45796b1a15af",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aad0a740-a206-41c5-b4c2-4abb2dec14fc",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.494694Z",
+            "modified": "2026-07-20T08:47:14.494694Z",
+            "name": "Activity Increases Perceived Legitimacy of Narrative",
+            "description": "Activity has been assessed to have increased the perceived legitimacy a narrative.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.001.md",
+                    "external_id": "A1003.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

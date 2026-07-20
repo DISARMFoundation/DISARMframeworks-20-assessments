@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--75fc54d7-a360-4c35-841c-92a3c5423bca",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae570e62-c0e3-4de0-8c7c-1704690623bb",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-07-20T08:47:14.529983Z",
+            "modified": "2026-07-20T08:47:14.529983Z",
+            "name": "Calibrate Campaign Cycle Phase",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Calibrate stage.<br><br>During the Calibrate stage, the actor gathers feedback and adapts to countermeasures deployed against them during the campaign; leadership and intelligence services assess the outcome of the campaign and retool their approach if needed. This emphasises the \u201cCycle\u201d element of the Malign Foreign Influence Campaign Cycle; a foreign influence operation is not a linear, one-time effort but an iterative process that evolves in response to what is working.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.007.md",
+                    "external_id": "A6001.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,3216 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7e74b1d-45f9-4fd7-8938-d412b196bca3",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--4ebebc60-0180-49b9-ab97-15bc0c2a9541",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.212283Z",
+            "modified": "2026-05-05T10:48:25.212283Z",
+            "name": "Within Campaign Impact",
+            "description": "Impacts activity have within a campaign, e.g. how behaviour impacts perceived legitimacy of a campaign asset, reach of campaign content, e.t.c.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA80.md",
+                    "external_id": "TA80"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "within-campaign-impact"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a89401a6-fc97-4af6-bf3d-74dbcc2e2447",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "External to Campaign Impact",
+            "description": "Impacts activity have external to a campaign, e.g. how behaviour impacts targeted individuals or institutions, geopolitics, or the information ecosystem.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA81.md",
+                    "external_id": "TA81"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "external-to-campaign-impact"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--df93467e-e631-4901-9675-cf53c11bab20",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "Online Techniques",
+            "description": "Techniques deployed as part of online Influence Operations by threat actors with the goal of achieving Tactical objectives.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA85.md",
+                    "external_id": "TA85"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "online-techniques"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a019f241-433c-449b-bf38-378bd5204b28",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.213289Z",
+            "modified": "2026-05-05T10:48:25.213289Z",
+            "name": "Scales Developed by non-DISARM Defenders",
+            "description": "Scales / Frameworks which have been developed by non-DISARM individuals or organisations defending against Influence Operations.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA90.md",
+                    "external_id": "TA90"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "scales-developed-by-non-disarm-defenders"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--9dba4d01-1bb1-467f-a978-57e70ffef59e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21429Z",
+            "modified": "2026-05-05T10:48:25.21429Z",
+            "name": "Vulnerability Exploited",
+            "description": "Cognitive, Technical, or Social vulnerabilities which have impacted a potential incident.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA91.md",
+                    "external_id": "TA91"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "vulnerability-exploited"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--c2740b55-cae0-4dee-86c7-3604928accc2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21429Z",
+            "modified": "2026-05-05T10:48:25.21429Z",
+            "name": "Actor Analysis",
+            "description": "Assessments analysts can make about actors behind an Influence Operation.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA92.md",
+                    "external_id": "TA92"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "actor-analysis"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e847993c-0c1b-4278-b20a-8998f5dd3d12",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.215289Z",
+            "modified": "2026-05-05T10:48:25.215289Z",
+            "name": "Impact on Asset",
+            "description": "Impact of activity on assets",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0001.md",
+                    "external_id": "A0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bc3bfa86-fec9-4221-afb1-8ad105ed99d8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.216289Z",
+            "modified": "2026-05-05T10:48:25.216289Z",
+            "name": "Increase Asset Legitimacy",
+            "description": "Activity has been assessed to have made campaign assets appear more legitimate / trustworthy as sources of information",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0001.001.md",
+                    "external_id": "A0001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4f68349e-a4ca-4cb5-8624-8c80912f5b7e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.217289Z",
+            "modified": "2026-05-05T10:48:25.217289Z",
+            "name": "Persist in the Information Space",
+            "description": "Activity has been assessed to have made campaign assets more likely to remain active within an information Space",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0001.002.md",
+                    "external_id": "A0001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4e1aeac3-548b-48a2-bf06-af67bd88f342",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.217289Z",
+            "modified": "2026-05-05T10:48:25.217289Z",
+            "name": "Conceal Presence of Coordination",
+            "description": "Activity has been assessed to have masked coordination of online assets",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0001.003.md",
+                    "external_id": "A0001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d633ecc9-92b8-4268-a8c2-06a0d745cee9",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21829Z",
+            "modified": "2026-05-05T10:48:25.21829Z",
+            "name": "Conceal Digital Infrastructure",
+            "description": "Activity has been assessed to have masked information about digital infrastructure used to conduct campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0001.004.md",
+                    "external_id": "A0001.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f0123d81-c2b2-4368-bb4e-ba05ce5ff986",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21829Z",
+            "modified": "2026-05-05T10:48:25.21829Z",
+            "name": "Impact on Publication",
+            "description": "Impact of activity on publications",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0002.md",
+                    "external_id": "A0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--055a592f-3af0-4e4c-a363-2fcd7d103bf2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21929Z",
+            "modified": "2026-05-05T10:48:25.21929Z",
+            "name": "Maximise Exposure to Publication",
+            "description": "Activity has been assessed to have significantly increased exposure to a publication",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0002.001.md",
+                    "external_id": "A0002.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9e6ae89f-b224-47a4-a1d7-8fc4fa9ecacc",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21929Z",
+            "modified": "2026-05-05T10:48:25.21929Z",
+            "name": "Impact on Campaign",
+            "description": "Impact of activity on the campaign as a whole",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.md",
+                    "external_id": "A0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7a20b219-aa55-4db1-80e7-b8108c431cc0",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.21929Z",
+            "modified": "2026-05-05T10:48:25.21929Z",
+            "name": "Break Association with Content",
+            "description": "Activity has been assessed to have masked the association between assets used and the content produced as part of an operation",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.001.md",
+                    "external_id": "A0003.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--32278d10-a8a7-49cb-b1f2-8c03c6cad166",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.220289Z",
+            "modified": "2026-05-05T10:48:25.220289Z",
+            "name": "Conceal Operational Activity",
+            "description": "Activity has been assessed to have masked activity taken as part of an operation",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.002.md",
+                    "external_id": "A0003.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--306ba9d5-2f7f-4c0e-aa7d-805f01529032",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.221287Z",
+            "modified": "2026-05-05T10:48:25.221287Z",
+            "name": "Conceal Sponsorship of Activity",
+            "description": "Activity has been assessed to have masked the individual or institution who has financed activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.003.md",
+                    "external_id": "A0003.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4532301b-8686-4dc7-9b4a-2ed733a32a15",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.221287Z",
+            "modified": "2026-05-05T10:48:25.221287Z",
+            "name": "Distance Individuals from Operation",
+            "description": "Activity has been assessed to have masked the association between individuals associated with the operation and the operation itself",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "within-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A0003.004.md",
+                    "external_id": "A0003.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--02f149f7-47e8-45ed-abd4-a31afa97411d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.221287Z",
+            "modified": "2026-05-05T10:48:25.221287Z",
+            "name": "Negative Reputational Impact",
+            "description": "Types of negative reputational impact resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1001.md",
+                    "external_id": "A1001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cd34f218-328b-4d05-8827-4e62c833a184",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.222429Z",
+            "modified": "2026-05-05T10:48:25.222429Z",
+            "name": "Target of Activity Defamed",
+            "description": "Activity has been assessed to have led to defamation of a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1001.001.md",
+                    "external_id": "A1001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2369cde8-e25b-4177-9f8f-91d295c1f895",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.222429Z",
+            "modified": "2026-05-05T10:48:25.222429Z",
+            "name": "Target of Activity Undermined",
+            "description": "Activity has been assessed to have undermined a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1001.002.md",
+                    "external_id": "A1001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3397f8d6-6254-4dee-b4a9-7fbe540166c7",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.223407Z",
+            "modified": "2026-05-05T10:48:25.223407Z",
+            "name": "Target of Activity Discredited",
+            "description": "Activity has been assessed to have discredited a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1001.003.md",
+                    "external_id": "A1001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--de1f3974-c0b8-40f9-a274-e9b541a82da2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.223407Z",
+            "modified": "2026-05-05T10:48:25.223407Z",
+            "name": "Target of Activity Polarised",
+            "description": "Activity has been assessed to have increased polarisation of an individual or community",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1001.004.md",
+                    "external_id": "A1001.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.224416Z",
+            "modified": "2026-05-05T10:48:25.224416Z",
+            "name": "Positive Reputational Impact",
+            "description": "Types of positive reputational impact resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.md",
+                    "external_id": "A1002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bab31081-3324-49aa-94de-e5955da2bbbe",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.225894Z",
+            "modified": "2026-05-05T10:48:25.225894Z",
+            "name": "Target of Activity Reputation Increased",
+            "description": "Activity has been assessed to have increased the reputation of a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.001.md",
+                    "external_id": "A1002.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--697e2603-b0e5-4537-a60d-7928f14cc87a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.225894Z",
+            "modified": "2026-05-05T10:48:25.225894Z",
+            "name": "Target of Activity Reputation Defended",
+            "description": "Activity has been assessed to have defended the reputation of a target against a negative narrative",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.002.md",
+                    "external_id": "A1002.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--85030d31-3648-491b-ac05-d86730a35cb4",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.226903Z",
+            "modified": "2026-05-05T10:48:25.226903Z",
+            "name": "Target of Activity Prestige Increased",
+            "description": "Activity has been assessed to have increased the prestige of a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.003.md",
+                    "external_id": "A1002.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bfe7de35-2f7a-4497-9fc4-025c3104103e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.226903Z",
+            "modified": "2026-05-05T10:48:25.226903Z",
+            "name": "Support Cultivated for Target of Activity",
+            "description": "Activity has been assessed to have increased broad support for a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.004.md",
+                    "external_id": "A1002.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1a3e4309-b521-4e60-9b40-b90a91c0d4a8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.227906Z",
+            "modified": "2026-05-05T10:48:25.227906Z",
+            "name": "Supporters of Target of Activity Energised",
+            "description": "Activity has been assessed to have energised existing supporters of a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.005.md",
+                    "external_id": "A1002.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--590db0cb-57c2-4696-afb2-43876947838f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.227906Z",
+            "modified": "2026-05-05T10:48:25.227906Z",
+            "name": "Supporters Recruited for Target of Activity",
+            "description": "Activity has been assessed to have recruited new explicit supporters for a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.006.md",
+                    "external_id": "A1002.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--84ca44e9-3454-4090-af3c-f6b31493367a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.228908Z",
+            "modified": "2026-05-05T10:48:25.228908Z",
+            "name": "Behaviour which is Target of Activity is Justified",
+            "description": "Activity has been assessed to have justified behaviour of a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1002.007.md",
+                    "external_id": "A1002.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7965743a-bb01-41c4-815c-0368181f7193",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.229908Z",
+            "modified": "2026-05-05T10:48:25.229908Z",
+            "name": "Impact on Narrative",
+            "description": "Impacts that activity can have on a narrative",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.md",
+                    "external_id": "A1003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d014bb74-c074-4ce0-9c39-4a666270e990",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.229908Z",
+            "modified": "2026-05-05T10:48:25.229908Z",
+            "name": "Activity Increases Perceived Legitimacy of State Aligned Narratives",
+            "description": "Activity has been assessed to have increased the perceived legitimacy of narratives which align with a state's goals, or narratives spread by a state",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.001.md",
+                    "external_id": "A1003.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--43d9f280-1eae-478b-9e18-b511d2496c92",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.231417Z",
+            "modified": "2026-05-05T10:48:25.231417Z",
+            "name": "Activity Introduces Another Narrative which Competes with Target Narrative",
+            "description": "Activity has been assessed to have produced a narrative which contrasts another narrative which previously existed",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.002.md",
+                    "external_id": "A1003.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--19e93665-7560-4c89-8462-dcf5f7468fe9",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.231417Z",
+            "modified": "2026-05-05T10:48:25.231417Z",
+            "name": "Activity Suppresses Reach of Narrative",
+            "description": "Activity has suppressed a narrative's ability to reach a given audience",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1003.003.md",
+                    "external_id": "A1003.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--36b6f882-92b3-4800-9682-19193debd0c7",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.232431Z",
+            "modified": "2026-05-05T10:48:25.232431Z",
+            "name": "Impact on Defender",
+            "description": "Impacts that activity can have on defenders",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1004.md",
+                    "external_id": "A1004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7a9a74c0-4eee-48f0-9e4a-9a8c9d37a802",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.232431Z",
+            "modified": "2026-05-05T10:48:25.232431Z",
+            "name": "Exhaust Defender Resources",
+            "description": "Activity has resulted in more defender resources spent on countermeasures than campaign resources on activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1004.001.md",
+                    "external_id": "A1004.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8a45136e-b350-4e19-89fc-b5c8ea158915",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.232431Z",
+            "modified": "2026-05-05T10:48:25.232431Z",
+            "name": "Financial Impact",
+            "description": "Types of financial impact resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.md",
+                    "external_id": "A1005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4147df13-ebbc-4209-a472-c528c85bf122",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.233441Z",
+            "modified": "2026-05-05T10:48:25.233441Z",
+            "name": "Stocks of Target of Activity Negatively Impacted",
+            "description": "Activity has been assessed to have negatively impacted the price of a target's stocks",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.001.md",
+                    "external_id": "A1005.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ac0b0a61-2359-4b5c-8581-28f135985d2f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.233441Z",
+            "modified": "2026-05-05T10:48:25.233441Z",
+            "name": "Stocks of Target of Activity Positively Impacted",
+            "description": "Activity has been assessed to have positively impacted the price of a target's stocks",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.002.md",
+                    "external_id": "A1005.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a5f25bdd-1ad1-4bef-bf44-a5c8c1be2dc8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.234438Z",
+            "modified": "2026-05-05T10:48:25.234438Z",
+            "name": "Funds Raised for Target of Activity",
+            "description": "Activity has been assessed to have led to funds being contributed to a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.003.md",
+                    "external_id": "A1005.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b18391bb-0287-4f4a-913b-ca95a2a4a2f1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.234438Z",
+            "modified": "2026-05-05T10:48:25.234438Z",
+            "name": "Recieve Funds from Target of Activity",
+            "description": "Activity has been assessed to have led to funds being received from a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.004.md",
+                    "external_id": "A1005.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--85e61f09-8f43-48f1-bda2-75cc7c9f32a0",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.234438Z",
+            "modified": "2026-05-05T10:48:25.234438Z",
+            "name": "Geopolitical Impact",
+            "description": "Types of geopolitical impact resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1006.md",
+                    "external_id": "A1006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2a772817-a6e5-4112-97c6-14f2bef18911",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.234438Z",
+            "modified": "2026-05-05T10:48:25.234438Z",
+            "name": "Economic Geopolitical Advantage",
+            "description": "Activity has been assessed to have an economic geopolitical advantage",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1006.001.md",
+                    "external_id": "A1006.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a86b9f13-be12-4ac2-b09f-4bb5de8ef784",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.235449Z",
+            "modified": "2026-05-05T10:48:25.235449Z",
+            "name": "Domestic Political Advantage",
+            "description": "Activity has been assessed to have a domestic political advantage",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1006.002.md",
+                    "external_id": "A1006.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a553ec03-fcf5-421f-b87b-016e21bc40bd",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.235449Z",
+            "modified": "2026-05-05T10:48:25.235449Z",
+            "name": "Impact on Behaviour",
+            "description": "Types of impact on behaviours resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1007.md",
+                    "external_id": "A1007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fd250990-1474-4855-9a42-611356ea652c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.235449Z",
+            "modified": "2026-05-05T10:48:25.235449Z",
+            "name": "Activity Causes Action",
+            "description": "Activity has been assessed to have contributed to the choice for another individual or institution to take an action",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1007.001.md",
+                    "external_id": "A1007.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--db44ff07-0d5a-4bc2-906a-f8f7b2a892ba",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.236442Z",
+            "modified": "2026-05-05T10:48:25.236442Z",
+            "name": "Activity Dissuades Action",
+            "description": "Activity has been assessed to have contributed to the choice for another individual or institution to not take an action",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1007.002.md",
+                    "external_id": "A1007.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0f127442-ffb9-4f38-982c-406d39c666da",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.236442Z",
+            "modified": "2026-05-05T10:48:25.236442Z",
+            "name": "Activity Thwarts Action",
+            "description": "Activity has been assessed to have prevented another actor from succeeding in taking desired activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1007.003.md",
+                    "external_id": "A1007.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bcd1553d-9d87-40a2-b64f-83f30ba91f67",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.237443Z",
+            "modified": "2026-05-05T10:48:25.237443Z",
+            "name": "Emotional Impact",
+            "description": "Types of impact activity can have on target's emotional state",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1008.md",
+                    "external_id": "A1008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1e72776a-f619-4dae-9aae-952067e27da1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.237443Z",
+            "modified": "2026-05-05T10:48:25.237443Z",
+            "name": "Target of Activity Distressed",
+            "description": "Activity has been assessed to have distressed a target",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1008.001.md",
+                    "external_id": "A1008.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f5d38506-541e-4fb8-aeaa-de631e21da3c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.238437Z",
+            "modified": "2026-05-05T10:48:25.238437Z",
+            "name": "Impact on Information Ecosystem",
+            "description": "Types of impact on the information ecosystem resulting from campaign activity",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1009.md",
+                    "external_id": "A1009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3c022605-66e5-42ec-ad9c-786a8aaea2b3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.238437Z",
+            "modified": "2026-05-05T10:48:25.238437Z",
+            "name": "Spread Hate",
+            "description": "Activity has been assessed to have increased the level of negative / hateful messaging for a target individual or community within an information ecosystem",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1009.001.md",
+                    "external_id": "A1009.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dc3adc4c-456e-448c-ac5a-65cc9b2e485e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.239437Z",
+            "modified": "2026-05-05T10:48:25.239437Z",
+            "name": "Degrade Quality of Information Ecosystem",
+            "description": "Activity has been assessed to have degraded the quality of an information ecosystem (e.g. reduced the reliability of the average piece of information within the ecosystem)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1009.002.md",
+                    "external_id": "A1009.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8eea2f03-cafd-4eb3-a6c3-04d0f87440db",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.240346Z",
+            "modified": "2026-05-05T10:48:25.240346Z",
+            "name": "Delivery Techniques",
+            "description": "Techniques which are associated with delivering material online",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "online-techniques"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A2001.md",
+                    "external_id": "A2001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--367eb4df-77b9-4a5c-afa5-dcb07ee04ec1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.241626Z",
+            "modified": "2026-05-05T10:48:25.241626Z",
+            "name": "Collaborating Assets Seed and Ping a Target",
+            "description": "Collaborating assets pose as being unassociated, with one seeding campaign material, and another pinging the campaign target, soliciting engagement with the campaign material",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "online-techniques"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A2001.001.md",
+                    "external_id": "A2001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a6b2df65-8cfd-421c-b5fe-6d6610d2c18e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.242637Z",
+            "modified": "2026-05-05T10:48:25.242637Z",
+            "name": "Flood an Online Information Space",
+            "description": "An asset has flooded an online information space by publishing content there many times, or many collaborating assets have flooded an online information space by each concurrently posting a small amount of content, or both",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "online-techniques"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A2001.002.md",
+                    "external_id": "A2001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5d8f6aaa-0c0b-45db-bd22-ed472eb0225a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.242637Z",
+            "modified": "2026-05-05T10:48:25.242637Z",
+            "name": "Publish Material Unrelated to a Campaign Narrative",
+            "description": "An asset has published material which is unrelated to the campaign's goals or target narratives",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "online-techniques"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A2001.003.md",
+                    "external_id": "A2001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.243645Z",
+            "modified": "2026-05-05T10:48:25.243645Z",
+            "name": "US DOJ Malign Foreign Influence Campaign Cycle Assessment",
+            "description": "In 2018, the US Department of Justice introduced the Malign Foreign Influence Campaign Cycle (MFICC) as part of its [Cyber-Digital Task Force report](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf); a framework mapping the phases of a foreign influence operation in order to identify opportunities for detection and disruption at each stage, and can be seen as analogous to a Kill Chain model. While broader in scope, it has a particular emphasis on operations targeting US elections and democratic institutions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.md",
+                    "external_id": "A6001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0dc08eda-7413-4c38-bde4-31f23a86041f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.243645Z",
+            "modified": "2026-05-05T10:48:25.243645Z",
+            "name": "Research",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Research stage.<br><br>During the Research stage, the actor identifies the vulnerabilities (both social and technical) it intends to exploit. This involves collection and analysis activities carried out by government research institutes and intelligence services, with the objective of mapping existing social and political fissures within the target society and developing message themes designed to inflame them. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.001.md",
+                    "external_id": "A6001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6435c5ac-2676-4c87-9b3e-c051454dbf1a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.243645Z",
+            "modified": "2026-05-05T10:48:25.243645Z",
+            "name": "Position",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Position stage.<br><br>During the Position stage, the actor establishes the infrastructure and online presence needed to conduct the campaign. Intelligence services, contractors, agents, and assets work to procure technical infrastructure, develop and grow networks of accounts and personas, and establish the credibility of those personas.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.002.md",
+                    "external_id": "A6001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ef2bb24b-7b5e-4898-8c48-a33f254c7110",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.243645Z",
+            "modified": "2026-05-05T10:48:25.243645Z",
+            "name": "Tasking",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Tasking stage.<br><br>During the Tasking stage, the actor translates the research and analytical work of the previous stage into operational direction. Drawing on the message themes and targeting analysis developed during Research, leadership and intelligence services assign specific tasks.\u00a0This stage acts as the bridge between strategic intent and operational activity, converting an understanding of the target society's vulnerabilities into concrete instructions the activity that follows.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.003.md",
+                    "external_id": "A6001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b06e2203-85fc-487c-8960-8ca2aaa95862",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.244677Z",
+            "modified": "2026-05-05T10:48:25.244677Z",
+            "name": "Produce",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Produce stage.<br><br>During the Produce stage, the actor creates or obtains content. This can involve hacking to acquire genuine material such as the theft of emails from target organisations), or the composition of fabricated or forged content. Intelligence services, contractors, state media, and other assets can play a role here.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.004.md",
+                    "external_id": "A6001.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--97062789-d86d-412e-802c-74ef6e8a6a55",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.244677Z",
+            "modified": "2026-05-05T10:48:25.244677Z",
+            "name": "Publish",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Publish stage.<br><br>During the Publish stage, the actor introduces content into the broader media environment while deliberately obscuring its true origin. This is achieved through publication via online proxies and personas, and dissemination through the networks established in the Position stage.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.005.md",
+                    "external_id": "A6001.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c8cf3894-f104-4861-8a08-43c69b4cc113",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.244677Z",
+            "modified": "2026-05-05T10:48:25.244677Z",
+            "name": "Amplify",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Amplify stage.<br><br>During the Amplify stage, the actor attempts to saturate the information environment and generate genuine public confusion. Bots and \u2018trolls\u2019 can artificially inflate the reach and apparent legitimacy of content, while state media and contractors push overt messaging. Unwitting audiences can also contribute as actors at this stage, amplifying foreign narratives without any awareness that they are doing so (for instance by sharing content or attending rallies organised covertly by foreign actors).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.006.md",
+                    "external_id": "A6001.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--15f56967-daa8-44f9-9fbb-12666a8a71dc",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.244677Z",
+            "modified": "2026-05-05T10:48:25.244677Z",
+            "name": "Calibrate",
+            "description": "Activity has been reviewed against the [US DOJ's Malign Foreign Influence Campaign Cycle](https://web.archive.org/web/20240616065252/https://media-cldnry.s-nbcnews.com/image/upload/today/z_creative/Cyber-Digital%20Task%20Force%20Report.pdf) and assessed to be in the Calibrate stage.<br><br>During the Calibrate stage, the actor gathers feedback and adapts to countermeasures deployed against them during the campaign; leadership and intelligence services assess the outcome of the campaign and retool their approach if needed. This emphasises the \u201cCycle\u201d element of the Malign Foreign Influence Campaign Cycle; a foreign influence operation is not a linear, one-time effort but an iterative process that evolves in response to what is working.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "scales-developed-by-non-disarm-defenders"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A6001.007.md",
+                    "external_id": "A6001.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--38ec5ded-17fd-4d3e-a660-6a47ee1247b3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.246667Z",
+            "modified": "2026-05-05T10:48:25.246667Z",
+            "name": "Cognitive Vulnerability",
+            "description": "Types of cognitive vulnerabilities; Inherent weaknesses in unconscious thinking patterns that distort a person's judgment and decision-making, which can contribute to the propagation of information disorder.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7001.md",
+                    "external_id": "A7001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c2ac7f6f-e7a0-463c-b8b1-b6519d65971d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.247173Z",
+            "modified": "2026-05-05T10:48:25.247173Z",
+            "name": "Illusory Truth Effect",
+            "description": "The Illusory Truth Effect refers to the phenomenon where [individuals who are repeatedly exposed to a piece of information are more likely to believe it is true information.](https://www.sciencedirect.com/science/article/abs/pii/S2352250X23001811)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7001.001.md",
+                    "external_id": "A7001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--10da94d5-d71c-4132-86f8-cf1fe4f0737a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.247173Z",
+            "modified": "2026-05-05T10:48:25.247173Z",
+            "name": "Technical Vulnerability",
+            "description": "Types of technical vulnerabilities; issues with technology, online platforms, or their features, which can contribute to the propagation of information disorder.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7002.md",
+                    "external_id": "A7002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--07cb879e-2787-4b80-81b1-0135f7a36e10",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.248182Z",
+            "modified": "2026-05-05T10:48:25.248182Z",
+            "name": "Low Quality Non-English Language Moderation",
+            "description": "Western platforms have been documented to have [lower quality moderation when operating in non-English languages.](https://globalwitness.org/en/campaigns/digital-threats/how-big-tech-platforms-are-neglecting-their-non-english-language-users/) This can result in erroneous moderation action, or in continuing to host Assets or Content which goes against the platform's stated terms of service.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "vulnerability-exploited"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A7002.001.md",
+                    "external_id": "A7002.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--296a59ff-654f-4d9e-b4c0-bb0ef716cdd3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.248182Z",
+            "modified": "2026-05-05T10:48:25.248182Z",
+            "name": "Actor Motive",
+            "description": "This category contains assessments analysts can make about the motivation behind an individual's participation in an influence operation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8001.md",
+                    "external_id": "A8001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7dddbc50-cb92-4a8e-a065-e9c90138cbad",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.249181Z",
+            "modified": "2026-05-05T10:48:25.249181Z",
+            "name": "Participating Individual Ideologically Aligned with Campaign",
+            "description": "The individual who took action as part of an incident has been assessed to have done so because they were ideologically aligned with the goals of the campaign.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8001.001.md",
+                    "external_id": "A8001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ac6746f0-f01f-4cb0-b989-ae435966bdb9",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.249181Z",
+            "modified": "2026-05-05T10:48:25.249181Z",
+            "name": "Participating Individual Paid for Participation in Campaign",
+            "description": "The individual who took action as part of an incident has been assessed to have done so because they were paid for their participation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8001.002.md",
+                    "external_id": "A8001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--980513b5-88b1-4815-b614-25197666f2cf",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.25018Z",
+            "modified": "2026-05-05T10:48:25.25018Z",
+            "name": "Actor Awareness",
+            "description": "This category contains assessments analysts can make about whether an individual was aware that they were contributing to an influence operation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8002.md",
+                    "external_id": "A8002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4cfad626-6afd-4ff6-940a-ad7d77d2f7a4",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.25018Z",
+            "modified": "2026-05-05T10:48:25.25018Z",
+            "name": "Participating Individual Unaware of Participation in Campaign",
+            "description": "The individual who took action as part of an incident has been assessed to have been unaware that they were doing so.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8002.001.md",
+                    "external_id": "A8002.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e91d36dd-ecb6-4674-a721-4d18497d64ed",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.25018Z",
+            "modified": "2026-05-05T10:48:25.25018Z",
+            "name": "Participating Individual Aware of Participation in Campaign",
+            "description": "The individual who took action as part of an incident has been assessed to have been aware that they were doing so.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8002.002.md",
+                    "external_id": "A8002.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--112bfe20-71e5-4841-b323-97478c37dcf5",
+            "created": "2026-05-05T10:48:25.25118Z",
+            "modified": "2026-05-05T10:48:25.25118Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--bc3bfa86-fec9-4221-afb1-8ad105ed99d8",
+            "target_ref": "attack-pattern--e847993c-0c1b-4278-b20a-8998f5dd3d12",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1fc30187-d64e-48fc-8c9a-5393a9ab0775",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--4f68349e-a4ca-4cb5-8624-8c80912f5b7e",
+            "target_ref": "attack-pattern--e847993c-0c1b-4278-b20a-8998f5dd3d12",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--75e80632-1eb4-4255-a3fb-0a42829169ff",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--4e1aeac3-548b-48a2-bf06-af67bd88f342",
+            "target_ref": "attack-pattern--e847993c-0c1b-4278-b20a-8998f5dd3d12",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47aaad40-d207-492f-b270-3bb39803db3b",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--d633ecc9-92b8-4268-a8c2-06a0d745cee9",
+            "target_ref": "attack-pattern--e847993c-0c1b-4278-b20a-8998f5dd3d12",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6a3363a3-9665-4e96-b797-33b24dcba1a9",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--055a592f-3af0-4e4c-a363-2fcd7d103bf2",
+            "target_ref": "attack-pattern--f0123d81-c2b2-4368-bb4e-ba05ce5ff986",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d79e0ae1-2e3a-4d53-8e51-3c91500df6de",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--7a20b219-aa55-4db1-80e7-b8108c431cc0",
+            "target_ref": "attack-pattern--9e6ae89f-b224-47a4-a1d7-8fc4fa9ecacc",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ef06421c-8523-440e-969d-51887a9802b8",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--32278d10-a8a7-49cb-b1f2-8c03c6cad166",
+            "target_ref": "attack-pattern--9e6ae89f-b224-47a4-a1d7-8fc4fa9ecacc",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--de68f495-05ff-40c9-bc1f-8ac8178c3c5c",
+            "created": "2026-05-05T10:48:25.251685Z",
+            "modified": "2026-05-05T10:48:25.251685Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--306ba9d5-2f7f-4c0e-aa7d-805f01529032",
+            "target_ref": "attack-pattern--9e6ae89f-b224-47a4-a1d7-8fc4fa9ecacc",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db33898d-3562-46b0-969e-7693708b23c7",
+            "created": "2026-05-05T10:48:25.25319Z",
+            "modified": "2026-05-05T10:48:25.25319Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--4532301b-8686-4dc7-9b4a-2ed733a32a15",
+            "target_ref": "attack-pattern--9e6ae89f-b224-47a4-a1d7-8fc4fa9ecacc",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--55c9b674-863b-424b-928f-151ef54d5e3a",
+            "created": "2026-05-05T10:48:25.25319Z",
+            "modified": "2026-05-05T10:48:25.25319Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--cd34f218-328b-4d05-8827-4e62c833a184",
+            "target_ref": "attack-pattern--02f149f7-47e8-45ed-abd4-a31afa97411d",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--52819b9e-6293-4660-9de5-45b51a23655e",
+            "created": "2026-05-05T10:48:25.25319Z",
+            "modified": "2026-05-05T10:48:25.25319Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--2369cde8-e25b-4177-9f8f-91d295c1f895",
+            "target_ref": "attack-pattern--02f149f7-47e8-45ed-abd4-a31afa97411d",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5091143c-b89b-4d3d-9ce0-11dcf9b6f24c",
+            "created": "2026-05-05T10:48:25.25319Z",
+            "modified": "2026-05-05T10:48:25.25319Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--3397f8d6-6254-4dee-b4a9-7fbe540166c7",
+            "target_ref": "attack-pattern--02f149f7-47e8-45ed-abd4-a31afa97411d",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f4a327eb-3843-4aef-8782-736394feed26",
+            "created": "2026-05-05T10:48:25.25319Z",
+            "modified": "2026-05-05T10:48:25.25319Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--de1f3974-c0b8-40f9-a274-e9b541a82da2",
+            "target_ref": "attack-pattern--02f149f7-47e8-45ed-abd4-a31afa97411d",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e9f63120-228b-4e16-9803-8617ee82b45e",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--bab31081-3324-49aa-94de-e5955da2bbbe",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--05d50340-5bff-4ee0-b376-4f0d8654b2a5",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--697e2603-b0e5-4537-a60d-7928f14cc87a",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0f334705-2766-4bea-9f02-ac632657387f",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--85030d31-3648-491b-ac05-d86730a35cb4",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d38fe678-8ae5-41f6-a45f-c00a49558320",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--bfe7de35-2f7a-4497-9fc4-025c3104103e",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a9a2412-8f19-4fb2-aab7-dc1b439f2b9c",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--1a3e4309-b521-4e60-9b40-b90a91c0d4a8",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8a33067-9a2a-4576-aaeb-8f95699e27aa",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--590db0cb-57c2-4696-afb2-43876947838f",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--900ba574-5099-4d7b-984f-e8efecc593bc",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--84ca44e9-3454-4090-af3c-f6b31493367a",
+            "target_ref": "attack-pattern--b07774fa-e903-418b-90ed-7fa128cbf272",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b8b743d4-7a66-43e5-aa6b-ce6d6f451d31",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--d014bb74-c074-4ce0-9c39-4a666270e990",
+            "target_ref": "attack-pattern--7965743a-bb01-41c4-815c-0368181f7193",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2e7fef3f-7779-4366-9ce8-283c1282da88",
+            "created": "2026-05-05T10:48:25.254198Z",
+            "modified": "2026-05-05T10:48:25.254198Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--43d9f280-1eae-478b-9e18-b511d2496c92",
+            "target_ref": "attack-pattern--7965743a-bb01-41c4-815c-0368181f7193",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3747d8a8-c8e0-4602-8942-67907e1879e5",
+            "created": "2026-05-05T10:48:25.255197Z",
+            "modified": "2026-05-05T10:48:25.255197Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--19e93665-7560-4c89-8462-dcf5f7468fe9",
+            "target_ref": "attack-pattern--7965743a-bb01-41c4-815c-0368181f7193",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--155498d5-b543-4ae8-b14b-c04c23b54a50",
+            "created": "2026-05-05T10:48:25.255197Z",
+            "modified": "2026-05-05T10:48:25.255197Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--7a9a74c0-4eee-48f0-9e4a-9a8c9d37a802",
+            "target_ref": "attack-pattern--36b6f882-92b3-4800-9682-19193debd0c7",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2128db60-9205-4339-9199-6d23ec5aa544",
+            "created": "2026-05-05T10:48:25.256199Z",
+            "modified": "2026-05-05T10:48:25.256199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--4147df13-ebbc-4209-a472-c528c85bf122",
+            "target_ref": "attack-pattern--8a45136e-b350-4e19-89fc-b5c8ea158915",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ecadaa73-ee76-4cd0-9eb4-908d5c670b95",
+            "created": "2026-05-05T10:48:25.256199Z",
+            "modified": "2026-05-05T10:48:25.256199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--ac0b0a61-2359-4b5c-8581-28f135985d2f",
+            "target_ref": "attack-pattern--8a45136e-b350-4e19-89fc-b5c8ea158915",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d9edcbf5-7c18-479d-bacc-fc56642e7d37",
+            "created": "2026-05-05T10:48:25.256199Z",
+            "modified": "2026-05-05T10:48:25.256199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--a5f25bdd-1ad1-4bef-bf44-a5c8c1be2dc8",
+            "target_ref": "attack-pattern--8a45136e-b350-4e19-89fc-b5c8ea158915",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1df85733-fa8d-419b-a220-e033d9897079",
+            "created": "2026-05-05T10:48:25.256199Z",
+            "modified": "2026-05-05T10:48:25.256199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--b18391bb-0287-4f4a-913b-ca95a2a4a2f1",
+            "target_ref": "attack-pattern--8a45136e-b350-4e19-89fc-b5c8ea158915",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d81e224-2a3c-466f-8a11-dabdf1179a03",
+            "created": "2026-05-05T10:48:25.257199Z",
+            "modified": "2026-05-05T10:48:25.257199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--2a772817-a6e5-4112-97c6-14f2bef18911",
+            "target_ref": "attack-pattern--85e61f09-8f43-48f1-bda2-75cc7c9f32a0",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a530f282-408a-4355-a379-ddf221a1126b",
+            "created": "2026-05-05T10:48:25.257199Z",
+            "modified": "2026-05-05T10:48:25.257199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--a86b9f13-be12-4ac2-b09f-4bb5de8ef784",
+            "target_ref": "attack-pattern--85e61f09-8f43-48f1-bda2-75cc7c9f32a0",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--390e17e1-eb3a-415a-84dd-e1275241a76e",
+            "created": "2026-05-05T10:48:25.257199Z",
+            "modified": "2026-05-05T10:48:25.257199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--fd250990-1474-4855-9a42-611356ea652c",
+            "target_ref": "attack-pattern--a553ec03-fcf5-421f-b87b-016e21bc40bd",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a720200c-cb50-4818-bb22-7aba0f2aae39",
+            "created": "2026-05-05T10:48:25.257199Z",
+            "modified": "2026-05-05T10:48:25.257199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--db44ff07-0d5a-4bc2-906a-f8f7b2a892ba",
+            "target_ref": "attack-pattern--a553ec03-fcf5-421f-b87b-016e21bc40bd",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--84383ef3-9aad-4875-ae9d-ca7a07cb68e2",
+            "created": "2026-05-05T10:48:25.257199Z",
+            "modified": "2026-05-05T10:48:25.257199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--0f127442-ffb9-4f38-982c-406d39c666da",
+            "target_ref": "attack-pattern--a553ec03-fcf5-421f-b87b-016e21bc40bd",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--912b770b-81ca-4f44-9f35-a75e268629b9",
+            "created": "2026-05-05T10:48:25.258199Z",
+            "modified": "2026-05-05T10:48:25.258199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--1e72776a-f619-4dae-9aae-952067e27da1",
+            "target_ref": "attack-pattern--bcd1553d-9d87-40a2-b64f-83f30ba91f67",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b4a9122-2c25-4b42-8461-83fb217546ab",
+            "created": "2026-05-05T10:48:25.258199Z",
+            "modified": "2026-05-05T10:48:25.258199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--3c022605-66e5-42ec-ad9c-786a8aaea2b3",
+            "target_ref": "attack-pattern--f5d38506-541e-4fb8-aeaa-de631e21da3c",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d91199e4-78c6-4632-bb54-673861148618",
+            "created": "2026-05-05T10:48:25.258199Z",
+            "modified": "2026-05-05T10:48:25.258199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--dc3adc4c-456e-448c-ac5a-65cc9b2e485e",
+            "target_ref": "attack-pattern--f5d38506-541e-4fb8-aeaa-de631e21da3c",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5a0fd79d-8162-4ba5-83ce-8146cdc7a37b",
+            "created": "2026-05-05T10:48:25.258199Z",
+            "modified": "2026-05-05T10:48:25.258199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--367eb4df-77b9-4a5c-afa5-dcb07ee04ec1",
+            "target_ref": "attack-pattern--8eea2f03-cafd-4eb3-a6c3-04d0f87440db",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3beb0607-f1b7-442b-baed-27339c7eefdb",
+            "created": "2026-05-05T10:48:25.258199Z",
+            "modified": "2026-05-05T10:48:25.258199Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--a6b2df65-8cfd-421c-b5fe-6d6610d2c18e",
+            "target_ref": "attack-pattern--8eea2f03-cafd-4eb3-a6c3-04d0f87440db",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79b59da3-4734-4343-8f10-b78d3130080d",
+            "created": "2026-05-05T10:48:25.259201Z",
+            "modified": "2026-05-05T10:48:25.259201Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--5d8f6aaa-0c0b-45db-bd22-ed472eb0225a",
+            "target_ref": "attack-pattern--8eea2f03-cafd-4eb3-a6c3-04d0f87440db",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd22be2e-ba0a-4b93-b68f-3d96e449f6ca",
+            "created": "2026-05-05T10:48:25.259201Z",
+            "modified": "2026-05-05T10:48:25.259201Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--0dc08eda-7413-4c38-bde4-31f23a86041f",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4a86c56f-45fb-418e-a6f4-cbfab9245afe",
+            "created": "2026-05-05T10:48:25.259201Z",
+            "modified": "2026-05-05T10:48:25.259201Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--6435c5ac-2676-4c87-9b3e-c051454dbf1a",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f2fd1003-2add-4901-8372-3a09d7a403d7",
+            "created": "2026-05-05T10:48:25.259201Z",
+            "modified": "2026-05-05T10:48:25.259201Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--ef2bb24b-7b5e-4898-8c48-a33f254c7110",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--88df28b2-5433-426a-87fd-869edda4502b",
+            "created": "2026-05-05T10:48:25.259201Z",
+            "modified": "2026-05-05T10:48:25.259201Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--b06e2203-85fc-487c-8960-8ca2aaa95862",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5aaa20f7-472a-48e3-9df2-d2fd070a0c18",
+            "created": "2026-05-05T10:48:25.260206Z",
+            "modified": "2026-05-05T10:48:25.260206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--97062789-d86d-412e-802c-74ef6e8a6a55",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--287dde7c-ac98-4546-9f28-03c5a83ee5f8",
+            "created": "2026-05-05T10:48:25.260206Z",
+            "modified": "2026-05-05T10:48:25.260206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--c8cf3894-f104-4861-8a08-43c69b4cc113",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d22d6d92-6924-42ee-8513-b79f0887c9d1",
+            "created": "2026-05-05T10:48:25.260206Z",
+            "modified": "2026-05-05T10:48:25.260206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--15f56967-daa8-44f9-9fbb-12666a8a71dc",
+            "target_ref": "attack-pattern--c182993c-642f-4abf-91cd-f9ad9b665f49",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d18c1588-7b30-48a4-bcb1-80f1c44d845d",
+            "created": "2026-05-05T10:48:25.260206Z",
+            "modified": "2026-05-05T10:48:25.260206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--c2ac7f6f-e7a0-463c-b8b1-b6519d65971d",
+            "target_ref": "attack-pattern--38ec5ded-17fd-4d3e-a660-6a47ee1247b3",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0dcc66d6-3765-498c-a399-a2b1813f47a6",
+            "created": "2026-05-05T10:48:25.260206Z",
+            "modified": "2026-05-05T10:48:25.260206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--07cb879e-2787-4b80-81b1-0135f7a36e10",
+            "target_ref": "attack-pattern--10da94d5-d71c-4132-86f8-cf1fe4f0737a",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--570f55c1-9d67-4711-a601-718daadffcd5",
+            "created": "2026-05-05T10:48:25.261206Z",
+            "modified": "2026-05-05T10:48:25.261206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--7dddbc50-cb92-4a8e-a065-e9c90138cbad",
+            "target_ref": "attack-pattern--296a59ff-654f-4d9e-b4c0-bb0ef716cdd3",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bb61e619-617d-4733-ba37-ada0766f6de1",
+            "created": "2026-05-05T10:48:25.261206Z",
+            "modified": "2026-05-05T10:48:25.261206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--ac6746f0-f01f-4cb0-b989-ae435966bdb9",
+            "target_ref": "attack-pattern--296a59ff-654f-4d9e-b4c0-bb0ef716cdd3",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--96e02817-0f35-4ce3-b0f9-eb99bb497ff4",
+            "created": "2026-05-05T10:48:25.261206Z",
+            "modified": "2026-05-05T10:48:25.261206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--4cfad626-6afd-4ff6-940a-ad7d77d2f7a4",
+            "target_ref": "attack-pattern--980513b5-88b1-4815-b614-25197666f2cf",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--067563f0-4e12-48f8-9b32-00d78ad06d01",
+            "created": "2026-05-05T10:48:25.261206Z",
+            "modified": "2026-05-05T10:48:25.261206Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--e91d36dd-ecb6-4674-a721-4d18497d64ed",
+            "target_ref": "attack-pattern--980513b5-88b1-4815-b614-25197666f2cf",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.210765Z",
+            "modified": "2026-05-05T10:48:25.210765Z",
+            "name": "DISARM Foundation",
+            "description": "DISARM is a framework designed for describing and understanding disinformation incidents.",
+            "identity_class": "organization"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-05-05T10:48:25.211272Z",
+            "definition_type": "statement",
+            "name": "DISARM Foundation",
+            "definition": {
+                "statement": "CC-BY-SA-4.0 DISARM Foundation"
+            }
+        },
+        {
+            "type": "x-mitre-matrix",
+            "spec_version": "2.1",
+            "id": "x-mitre-matrix--0e0c1597-4b7d-43f1-b768-1c4a253c44df",
+            "created": "2026-05-05T10:48:25.262721Z",
+            "modified": "2026-05-05T10:48:25.262721Z",
+            "name": "DISARM V2 Assessments Framework",
+            "description": "The DISARM V2 Assessments Framework standardizes the descriptions of assessments made by analysts which pertain to suspected adversary operations or campaigns.",
+            "tactic_refs": [
+                "x-mitre-tactic--4ebebc60-0180-49b9-ab97-15bc0c2a9541",
+                "x-mitre-tactic--a89401a6-fc97-4af6-bf3d-74dbcc2e2447",
+                "x-mitre-tactic--df93467e-e631-4901-9675-cf53c11bab20",
+                "x-mitre-tactic--a019f241-433c-449b-bf38-378bd5204b28",
+                "x-mitre-tactic--9dba4d01-1bb1-467f-a978-57e70ffef59e",
+                "x-mitre-tactic--c2740b55-cae0-4dee-86c7-3604928accc2"
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation",
+                    "external_id": "DISARM"
+                }
+            ]
+        }
+    ]
+}
