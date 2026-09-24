@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--187c7798-3a69-4b71-b2c7-8edc258cb904",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9bc4a830-622f-42c5-a393-5e9179bb65fe",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.484816Z",
+            "modified": "2026-09-24T23:25:11.484816Z",
+            "name": "Activity Restricts Subject's Freedom to Work",
+            "description": "Activity has the assessed impact of limiting the subject's ability to obtain, keep, or practise an occupation, covered by Article 15(1) of the Charter of Fundamental Rights of the European Union.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1011.016.md",
+                    "external_id": "A1011.016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c82dce3-7ff5-423d-9ab3-0e6ab8e2bf2f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bba4183b-235a-4cdf-9ca2-9bb1bbfed183",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.490806Z",
+            "modified": "2026-09-24T23:25:11.490806Z",
+            "name": "Subject Forced to Relocate",
+            "description": "Summary: The subject has left their home, and in some cases their country, because of activity directed at them or at someone connected to them.<br><br>Detail: This impact records that the subject changed where they live as a direct response to activity. It covers a single move made out of fear for safety, repeated moves following successive exposures of a new address, and departure from a country altogether.<br><br>The move itself, not the activity that caused it, is the defining feature. Doxxing, swatting, a demonstrated capability to locate someone, and a credible threat of physical harm are all mechanisms that can produce this impact, and the specific mechanism should be recorded separately using the relevant Observation or Technique. What this item captures is that the subject changed address because of it.<br><br>Relocation is often incomplete as a remedy. A subject who moves after being doxxed can be doxxed again at the new address, and each successive exposure can trigger a further move. Recording a single instance of this impact does not imply the matter is resolved; a pattern of repeated relocation is itself evidence of an actor's continued capability and intent, and should be recorded as such rather than folded into a single tagging.<br><br>Relocation carries its own downstream costs. Loss of employment, financial loss, disruption to a child's schooling, and loss of a support network are common consequences and are each a separate outcome to be recorded in their own right, not absorbed into this item.<br><br>Example<br><br>Li Ying, known online as Teacher Li, is a [Chinese dissident based in Italy who relays uncensored information and images from contacts inside China to a large following on X.](https://safeguarddefenders.com/en/blog/teacher-li-full-transnational-repression-story) His identity was first doxxed by anonymous accounts on 28 November 2022, and his home address in Italy has been leaked online more than once since. As a precaution, he listed an old address rather than his current one on a passport renewal request in February 2023, but an individual linked to pro-Beijing community associations in Milan traced that old address through a former roommate the following month. That address and his phone number were then published on WeChat, after which he began changing where he lived repeatedly out of fear for his safety.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1012.009.md",
+                    "external_id": "A1012.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

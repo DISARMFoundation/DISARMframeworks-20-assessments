@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b12f5ecb-1f54-45ea-b36b-da91c06a579a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9939c9a0-fd92-42f9-b344-ef1c5cf36f15",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.507946Z",
+            "modified": "2026-09-24T23:25:11.507946Z",
+            "name": "Targeting Intentionality",
+            "description": "Summary: This Category contains Assessments of whether a campaign actor intended to impact an observed participant, and of the role that participant played in the actor's targeting.<br><br>Detail: A8004: Targeting Intentionality documents an analyst's assessment as to whether the actor intended to impact the subject of a given incident and if so, whether the target was a proxy used to impact a primary target, or the intended target of activity themselves.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8004.md",
+                    "external_id": "A8004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

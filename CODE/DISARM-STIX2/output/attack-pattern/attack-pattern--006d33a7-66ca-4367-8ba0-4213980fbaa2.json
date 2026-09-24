@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3877421e-c5df-478b-b2ea-280af5c4ab72",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--006d33a7-66ca-4367-8ba0-4213980fbaa2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.486802Z",
+            "modified": "2026-09-24T23:25:11.486802Z",
+            "name": "Subject Physically Injured",
+            "description": "Summary: Activity has the assessed impact of causing bodily injury to the subject.<br><br>Detail: This impact records that the subject sustained bodily injury which an analyst assesses to be connected to the activity. It covers injury inflicted directly by an actor, injury inflicted by a third party acting on information or incitement supplied by the actor, and injury sustained by the subject while attempting to escape or avoid activity, or acting on information supplied by the actor.<br><br>Physical injury can be assessed as an impact of an operation even where the actor and the person who inflicts the injury are different. An operation that publishes a target's home address does not itself commit assault; assessing a resulting injury as an impact of the publication is an analytical claim which can be made.<br><br>Injury does not require an identified assailant. Where a subject is injured by an unidentified crowd acting on a false claim, the impact is assessable even though no individual actor can be named.<br><br>Example<br><br>In India false child-abduction warnings circulating on WhatsApp produced mob attacks on strangers, leading to death (A1012.006: Subject Killed) and injury (A1012.001: Subject Physically Injured). [More than two dozen people were beaten to death across India between late April and mid-July 2018](https://www.aljazeera.com/features/2018/7/17/in-india-whatsapp-stirs-up-deadly-rumours) on suspicion of child abduction. In Rainpada, in Maharashtra, [five nomadic men were bludgeoned to death after one was seen speaking to a child at a weekly market, in a village that had been abuzz for days with WhatsApp rumours of a kidnapping gang](https://www.cbsnews.com/news/india-lynching-attacks-child-abduction-gang-rumors-arrests-maharashtra/). In Bidar, in Karnataka, a mob killed one man and wounded three others after photographs of them were circulated on WhatsApp to alert neighbouring villages, and [four police officers were injured when they tried to stop the attack](https://www.pressreader.com/uk/the-scotsman/20180716/281917363853192).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1012.001.md",
+                    "external_id": "A1012.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

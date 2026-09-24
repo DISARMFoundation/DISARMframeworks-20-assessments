@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--88b4076d-e9e1-44dc-b236-afb671890d33",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0ddaccd7-2ab9-446c-8203-6a0df609b037",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.508942Z",
+            "modified": "2026-09-24T23:25:11.508942Z",
+            "name": "Proxy Target of Activity",
+            "description": "Summary: The subject is assessed to have been targeted in order to impact an intended target.<br><br>Detail: A8004.002: Proxy Target of Activity records a participant the actor acted upon in order to bring about an impact on another subject.<br><br>One example of the usage of a proxy target is in the Technique A3001.001: Coercion by Proxy; a proxy is harmed or threatened to apply pressure to an intended target. Another is impersonation, taking on a target identity to exploit their credibility. In this case the impersonated target is being used to bring about an impact on another target.<br><br>A proxy target may also be an intended target, such as an individual being harassed to silence them, and to encourage others sharing their demographic to not speak out. Where the actor both meant to impact the participant, and used that impact to reach others, record A8004.001: Intended Target of Activity as well.<br><br>Example<br><br>The Doppelganger campaign has operated in Europe since at least May 2022. [It leases domains resembling those of authentic outlets, clones their page designs, and publishes fabricated articles under their identities, then amplifies the clones through social media accounts.](https://www.disinfo.eu/doppelganger) [At least seventeen media providers have been impersonated, including Bild, Der Spiegel, Le Monde, The Guardian, Ansa, and RBC Ukraine, and in Germany the impersonated outlets also included Die Welt.](https://correctiv.org/en/fact-checking-en/2024/07/22/inside-doppelganger-how-russia-uses-eu-companies-for-its-propaganda/)<br><br>This case demonstrates a proxy target used to achieve a further impact on another participant. The actors targeted the outlets with impersonation, and this activity was used to achieve impacts on further targets who believed these impersonations were genuine.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8004.002.md",
+                    "external_id": "A8004.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

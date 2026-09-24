@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--27b1ffc2-3db9-4cf7-8baf-39bc1b509d42",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--29cacfbe-e4a6-4e11-b8c6-cf405f73e7bc",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.464467Z",
+            "modified": "2026-09-24T23:25:11.464467Z",
+            "name": "Receive Funds from Target of Activity",
+            "description": "Activity has been assessed to have led to funds being received from a target.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1005.004.md",
+                    "external_id": "A1005.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

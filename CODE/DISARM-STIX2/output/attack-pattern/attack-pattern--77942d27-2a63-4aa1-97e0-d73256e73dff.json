@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2309e99f-2da9-4bc8-b085-bfb6f141dbaa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--77942d27-2a63-4aa1-97e0-d73256e73dff",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.484816Z",
+            "modified": "2026-09-24T23:25:11.484816Z",
+            "name": "Activity Restricts Subject's Access to Education",
+            "description": "Activity has the assessed impact of limiting the subject's ability to enrol in, continue, or complete education or training, covered by Article 14(1) of the Charter of Fundamental Rights of the European Union.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1011.015.md",
+                    "external_id": "A1011.015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

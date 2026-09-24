@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4ede62ad-b38d-416c-b47d-68d9c7c83506",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0e90e6f8-af4d-47ae-a210-10a92ad6d3b2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.491805Z",
+            "modified": "2026-09-24T23:25:11.491805Z",
+            "name": "Subject Excluded from Profession",
+            "description": "Summary: Activity has the assessed impact of barring the subject from working in their field.<br><br>Detail: This impact records the subject being shut out of a profession rather than out of a particular job. It covers being struck off or disbarred, having a licence or practising certificate revoked or refused, being removed from a professional register, losing accreditation, having an organisation deregistered, and being blacklisted so that no employer in the field will take the subject on. The distinguishing feature is that finding another employer does not resolve it. A dismissed lawyer can join another outlet; a lawyer whose accreditation is withdrawn cannot practice law at all.<br><br>Exclusion is usually conducted by a body other than the actor in an operation. Licensing authorities, professional regulators, registrars, and press offices carry it out, each examples where a third party does the damage on the actor's behalf or under its influence. The formal reason given is ordinarily regulatory or procedural rather than political.<br><br>Example<br><br>On 9 July 2015 Chinese authorities launched a coordinated operation against human rights lawyers which became known as the 709 crackdown, [detaining, interrogating, or disappearing about 300 lawyers, legal assistants, and advocates.](https://www.hrw.org/news/2025/07/06/china-10-years-since-709-crackdown-lawyers-still-under-fire) Alongside the detentions, the state used the licensing system: authorities have [stripped at least twenty lawyers of their licences and sanctioned twenty-six more in the years since, including forcing some out of their firms under official pressure](https://www.nchrd.org/2025/07/chinese-government-impunity-for-crackdown-on-lawyers-fuels-decade-of-repression/); the legal scholar Teng Biao has separately [estimated that around fifty lawyers in total have had their licences revoked or been unable to renew them](https://www.cecc.gov/publications/commission-analysis/five-years-after-709-crackdown-lawyers-continue-to-face-repression). Amendments to the regulations governing lawyers and law firms, which took effect in 2016, gave judicial authorities the power to disbar firms or individual lawyers for a broad range of prohibited activities. Human Rights Watch and Amnesty International both recorded [continuing repression, including ongoing disbarments, a decade later.](https://www.hrw.org/news/2025/07/06/china-10-years-since-709-crackdown-lawyers-still-under-fire)<br><br>This case demonstrates exclusion operating through a licensing authority rather than an employer, and outlasting the campaign that produced it. The lawyers were not dismissed from posts they could seek again elsewhere; the qualification to practise was withdrawn, which closed the profession to them regardless of who might have been willing to employ them.<br><br>In August 2020, during the protests which followed the presidential election, the Belarusian foreign ministry [withdrew accreditation from at least seventeen journalists working for foreign outlets,](https://spring96.org/en/news/99290) including Reuters, the Associated Press, AFP, the BBC, ARD, RFI, and Radio Free Europe/Radio Liberty. Human Rights Watch later found that journalists without accreditation in Belarus risked [administrative and criminal prosecution for reporting on protests or for \"illegal production and distribution of mass media products.\"](https://www.hrw.org/news/2021/03/29/belarus-crackdown-independent-journalism)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.003.md",
+                    "external_id": "A1013.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

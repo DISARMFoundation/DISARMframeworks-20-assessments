@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--41f3c291-f4f8-4de3-8bf6-674c830405ab",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6793cf56-6044-4971-9b00-7fcbe9f93684",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.493806Z",
+            "modified": "2026-09-24T23:25:11.493806Z",
+            "name": "Subject's Customers Withdraw Custom",
+            "description": "Summary: Activity has the assessed impact of causing the subject's customers to stop purchasing goods or services from them.<br><br>Detail: This impact records the people and organisations who buy from the subject ceasing to do so. Customers here include consumers, clients, subscribers, advertisers, distributors, and commercial partners. This impact applies where the subject's livelihood or operation depends on a customer base, covering both individuals and institutions.<br><br>For institutions like news outlets, advertiser withdrawal is a mechanism by which a discrediting campaign can achieve a campaign objective of shutting them down. The customers are not usually being coerced. They are responding to an information environment, and each individual decision to stop buying is reasonable on the information that the customer holds.<br><br>Example<br><br>In March 2021 a boycott of H&M developed rapidly in China after a year-old company statement about not sourcing cotton from Xinjiang was recirculated. Doublethink Lab [traced the campaign's origin to the Communist Youth League's Weibo account amplifying, less than eleven hours later, a post by an independent Weibo influencer who had shared screenshots of H&M's statement;](https://medium.com/doublethinklab/collab-uncovering-the-chinese-information-operations-behind-the-h-m-boycott-over-xinjiang-cotton-5e078c0589a9) the post was then picked up by other state media accounts and nationalist commentators as three related hashtags began to trend. H&M product listings were [removed from Chinese e-commerce platforms including Taobao, JD.com, and Pinduoduo, and store geolocations were deleted from mapping services.](https://www.scmp.com/news/china/politics/article/3126828/hm-under-fire-china-over-refusal-buy-xinjiang-cotton) Two Chinese celebrities who had represented the brand, [actor Huang Xuan and singer Song Qian, publicly ended their associations with it.](https://enapp.chinadaily.com.cn/a/202103/25/AP605b46a1a310f03332f9a1fe.html)<br><br>This case demonstrates commercial withdrawal produced by a state-linked information operation, with platform delisting and celebrity disassociation operating as parts of the same mechanism rather than as separate events. Customers who may have continued buying were prevented from doing so, which is the enforced form of this impact rather than the persuaded one.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.008.md",
+                    "external_id": "A1013.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

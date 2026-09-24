@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--afae8e67-077d-49a3-8eb1-390d5302d21c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c6ed9e49-ab6e-47a7-a5ba-090f17782f02",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.491805Z",
+            "modified": "2026-09-24T23:25:11.491805Z",
+            "name": "Subject Loses Employment",
+            "description": "Summary: Activity has the assessed impact of costing the subject their employment.<br><br>Detail: This impact records the end of the subject's employment as a consequence of activity. It covers dismissal, forced resignation, non-renewal of a contract, withdrawal of commissions, and departure the subject initiates because continuing has become untenable.<br><br>The impact does not require a decision by an employer. A subject who is never formally dismissed, but whose commissions stop arriving and whose calls go unreturned, has sustained the same impact. So has a subject who resigns because staying would expose them or their colleagues to further harm.<br><br>The loss is not only financial. A person forced out of a post they held for years loses colleagues, routine, and standing among peers alongside the income, and the money is the part most easily replaced.<br><br>Example<br><br>Wandrea \"Shaye\" Moss had worked in elections in Fulton County, Georgia for ten years when Rudy Giuliani made false public claims that she and her mother, Ruby Freeman, had committed electoral fraud during the 2020 presidential election. The claims produced [sustained racist and violent harassment, including death threats;](https://www.npr.org/2022/06/22/1106459556/shaye-moss-staffed-an-election-office-in-georgia-then-she-was-targeted-by-trump) Moss told congressional investigators the harassment made her afraid to leave her home or use her name in public, and she eventually left her job with the county altogether. Freeman testified at trial that she had [lost her name and her reputation, eventually sold her home, and lived out of her car for a time, as the harassment made friends and fellow church members afraid to be associated with her.](https://www.pbs.org/newshour/politics/georgia-election-worker-tearfully-describes-fleeing-her-home-after-giulianis-false-claims-of-fraud)<br><br>This case demonstrates a career ended without any employer acting. Nobody dismissed Moss; a decade in elections became untenable after mass harassment and she left. [It reflects a wider pattern: a 2023 Brennan Center survey found nearly one in three local election officials had been harassed, abused, or threatened over their work, with more than one in ten saying they were likely to leave office before the 2024 election.](https://www.brennancenter.org/our-work/analysis-opinion/poll-election-officials-shows-high-turnover-amid-safety-threats-and)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.002.md",
+                    "external_id": "A1013.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee51bccd-9fa6-466c-b512-95b641d0387e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--93e8cc7f-1542-4e07-b18c-1a1119476ee3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.490806Z",
+            "modified": "2026-09-24T23:25:11.490806Z",
+            "name": "Subject Physically Detained",
+            "description": "Summary: The subject has been deprived of liberty and held in custody in connection with or as a result of activity.<br><br>Detail: This impact records that the subject was taken into custody. It covers detention by state authorities with or without legal process, imprisonment following conviction, and detention by non-state actors.<br><br>Custody is the defining feature. A subject who is prevented from leaving a country, whose passport is confiscated, or who is placed under a bail condition has had their freedom restricted without being taken into custody, and that is a different outcome recorded elsewhere.<br><br>The detained person is often not the person an operation is aimed at. Detention of relatives is a standard coercion by proxy mechanism, and the detention of a journalist's family in their country of origin is an impact of a campaign directed at the journalist abroad. Recording it requires attributing an outcome suffered by one person to activity targeting another.<br><br>Detention rarely concludes a sequence. Loss of employment, financial loss, deterioration in health, and damage to the subject's relationships follow from it routinely, and each is a separate outcome in its own right.<br><br>Example<br><br>Gulchehra Hoja is a Uyghur journalist with Radio Free Asia's Uyghur Service who reports on detention in Xinjiang. [On 28 January 2018 she published an interview with a survivor of the internment camps, and three days later, Chinese authorities detained twenty-four more of her relatives.](https://focustaiwan.tw/culture/202607210008) [Her brother had previously been arrested in 2017 and spent three years in an internment camp; her mother was detained in 2018 and held for two months.](https://hrf.org/latest/chinese-communist-party-stop-coercing-family-of-uyghur-journalist-gulchehra-hoja/) Her parents have repeatedly been refused passports in retaliation for her work, and [Chinese authorities published a video in which her mother and brother were coerced into stating on camera that they were living normal lives.](https://hrf.org/latest/chinese-communist-party-stop-coercing-family-of-uyghur-journalist-gulchehra-hoja/) Rights groups, including Amnesty International, separately documented around [twenty relatives detained in the same period, some over contact with Hoja in a WeChat group, and condemned the pattern as retaliation against her reporting.](https://www.rfa.org/english/news/uyghur/reporters-relatives-03012018164751.html)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1012.008.md",
+                    "external_id": "A1012.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

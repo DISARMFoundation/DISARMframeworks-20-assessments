@@ -20,9 +20,15 @@
 <td>P20</td>
 </tr>
 <tr>
+<td><a href="tactics/TA82.md">TA82</a></td>
+<td>Impact Qualifiers</td>
+<td>Assessments which describe a property of an impact rather than an impact in their own right. Each is applied as a descriptor to a TA81 or TA80 item.</td>
+<td>P20</td>
+</tr>
+<tr>
 <td><a href="tactics/TA85.md">TA85</a></td>
-<td>Online Techniques</td>
-<td>Techniques deployed as part of online Influence Operations by threat actors with the goal of achieving Tactical objectives.</td>
+<td>Techniques</td>
+<td>Techniques deployed as part of Influence Operations by threat actors with the goal of achieving Tactical objectives.</td>
 <td>P21</td>
 </tr>
 <tr>

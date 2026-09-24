@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--23efe856-f616-4a17-b8f9-d0dd512ceb7b",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--49730ff0-fc41-4eef-b25f-8b3e0d3fae4b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.449926Z",
+            "modified": "2026-09-24T23:25:11.449926Z",
+            "name": "Within Campaign Impact",
+            "description": "Impacts activity have within a campaign, e.g. how behaviour impacts perceived legitimacy of a campaign asset, reach of campaign content, e.t.c.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA80.md",
+                    "external_id": "TA80"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "within-campaign-impact"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--fbe0be74-a287-4df7-a67c-c8a12fa48967",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--abaab1b9-3295-4179-a0d3-c235378fcf18",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.502805Z",
+            "modified": "2026-09-24T23:25:11.502805Z",
+            "name": "Ideologically Aligned Participant",
+            "description": "The individual who took action as part of an incident has been assessed to have done so because they were ideologically aligned with the goals of the campaign.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8001.001.md",
+                    "external_id": "A8001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

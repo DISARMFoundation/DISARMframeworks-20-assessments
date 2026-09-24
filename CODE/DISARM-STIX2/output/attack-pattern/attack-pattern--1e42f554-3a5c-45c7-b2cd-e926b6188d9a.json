@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1980771c-89cf-4ae1-a5e1-5cb6d465d574",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1e42f554-3a5c-45c7-b2cd-e926b6188d9a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.511945Z",
+            "modified": "2026-09-24T23:25:11.511945Z",
+            "name": "Observer of Activity",
+            "description": "Summary: The participant perceived the activity without it having been delivered to or directed at them individually.<br><br>Detail: A8006.002: Observer of Activity records that the participant became aware of the activity by some route other than being directly acted upon in the incident.<br><br>It covers seeing a publication in a place the participant had access to, and learning of the activity secondhand from reporting or from another person. The word observer describes the route rather than the directness of the perception, so somebody who heard about the activity from a third party is considered an observer of it.<br><br>It applies whether the activity was aimed at the participant or at somebody else, so an intended target who comes across a smear published about them takes it, as does a member of a targeted community who reads about an assault.<br><br>Example<br><br>Amnesty International analysed [25,688 abusive tweets sent to women MPs in the six months before the June 2017 general election.](https://www.newstatesman.com/science-tech/2017/09/we-tracked-25688-abusive-tweets-sent-women-mps-half-were-directed-diane-abbott) [Diane Abbott received almost a third of them across the whole period and 45 per cent of them in the final six weeks, which is eight times more than any other woman MP over the period and ten times more in the run-up to polling day.](https://amnesty.org.uk/press-releases/diane-abbott-talks-about-sheer-levels-hatred-she-receives-online) [Excluding Abbott, Black and Asian women MPs received 35 per cent more abusive tweets than white women MPs.](https://www.amnesty.org.uk/knowledge-hub/all-resources/online-violence-women-mps/) [The Fawcett Society found that 59 per cent of women said in 2019 they would not stand as an MP, a figure that had risen to 74 per cent by the time of a later survey, with almost 70 per cent of those citing abuse or harassment as a reason.](https://politicalquarterly.org.uk/blog/womens-access-to-public-life-is-restricted-by-incivility-and-discrimination)<br><br>This case demonstrates how women who observed the harassment women MPs were subjected to cited the harassment as a reason for declining to participate in the democratic process as an MP.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8006.002.md",
+                    "external_id": "A8006.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

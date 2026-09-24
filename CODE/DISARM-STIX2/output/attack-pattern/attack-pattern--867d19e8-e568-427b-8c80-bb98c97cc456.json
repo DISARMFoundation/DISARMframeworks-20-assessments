@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b797f42f-b8f9-4662-bebf-5dfde00e1ccd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--867d19e8-e568-427b-8c80-bb98c97cc456",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.492816Z",
+            "modified": "2026-09-24T23:25:11.492816Z",
+            "name": "Subject's Service Providers Withdraw Service",
+            "description": "Summary: Activity has the assessed impact of causing banks, hosts, insurers, professional advisers, or comparable providers to end or refuse service to the subject.<br><br>Detail: This impact records service providers withdrawing from the subject. It covers account closure and freezing by banks and payment processors, termination by hosting and domain providers, refusal or cancellation of insurance, and withdrawal by professional advisers including lawyers and accountants.<br><br>An actor who can induce a subject's bank to close their accounts achieves the effect of a financial sanction without holding the legal authority to impose one, and without leaving the evidence trail a formal measure would produce. This makes service withdrawal an attractive route for actors whose formal powers do not reach the subject, and for actors who would prefer the outcome not to be attributable.<br><br>The withdrawing institution is usually protecting itself rather than acting against the subject, and its stated reason is usually regulatory compliance or risk management. That stated reason may be accurate and still not be the whole explanation.<br><br>Example<br><br>Ted Hui, a former Hong Kong legislator, left Hong Kong in late 2020 and announced he would seek exile in Britain. [HSBC froze the personal accounts and credit cards of Hui, his wife, and his parents at the request of Hong Kong police,](https://www.scmp.com/news/hong-kong/politics/article/3112844/hong-kong-police-move-freeze-hsbc-accounts-belonging) who said the action formed part of an investigation into around HK$850,000 alleged to have been embezzled through the family's personal accounts. Hui also reported [accounts frozen at Bank of China and Hang Seng Bank.](https://www.business-humanrights.org/en/latest-news/china-former-hong-kong-legislator-ted-huis-bank-accounts-frozen-as-hong-kong-police-investigate-alleged-national-security-law-violations-and-embezzlement/) HSBC's chief executive Noel Quinn told the UK parliament's Foreign Affairs Committee in January 2021 that he [had to comply with the law and could not make a moral or political judgement on the matter.](https://www.business-humanrights.org/en/latest-news/hong-kong-hsbc-chief-defends-banks-support-for-national-security-law-and-closure-of-former-lawmakers-account/) Hui rejected that account, accused the banks involved of [succumbing to political pressure, gave evidence to the same parliamentary committee, and called for sanctions on HSBC.](https://www.scmp.com/news/hong-kong/politics/article/3119043/self-exiled-former-hong-kong-lawmaker-ted-hui-gives)<br><br>This case demonstrates withdrawal by a third party rather than restriction by the actor. The Hong Kong authorities did not freeze the accounts; a commercial bank did, on their request, and framed the decision as legal compliance.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.007.md",
+                    "external_id": "A1013.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

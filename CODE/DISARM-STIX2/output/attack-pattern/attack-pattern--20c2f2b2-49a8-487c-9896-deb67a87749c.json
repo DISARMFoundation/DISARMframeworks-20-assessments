@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ea449a2-7ade-4bb0-baf7-8cdb65ac5b3e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--20c2f2b2-49a8-487c-9896-deb67a87749c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.491805Z",
+            "modified": "2026-09-24T23:25:11.491805Z",
+            "name": "Subject's Family Relationships Damaged",
+            "description": "Summary: Activity has the assessed impact of damaging the subject's relationships with family members.<br><br>Detail: This impact records damage to the subject's relationships with family members. It covers a range of damage from strained contact through to permanent severance, and does not require that any relationship explicitly ended.<br><br>There are several different ways in which this impact can arise. The subject of incident activity withdraws in order to protect relatives, reducing or ending contact so that the family cannot be used against them. Relatives withdraw in order to protect themselves, having concluded that association with the subject carries consequences they are unwilling to bear. Relatives accept the claims made about the subject, or relatives reject the subject over material exposed about them, most often intimate imagery or private communications, where the damage runs through shame rather than through belief in any allegation. Further, incidents can contribute to adoption of beliefs which make a continued relationship untenable, for example taking on extremist values, or taking at face value theories without evidence which change the way an individual relates to others.<br><br>Degree of damage is not distinguished within this impact. A relationship under strain and a relationship permanently ended are both recorded here. Family relationships are private, so this impact rarely leaves an observable public trace. It usually rests on the subject's own account, on content relatives produced, or on testimony from others in the subject's circle.<br><br>Example<br><br>Vicky Xu is a Chinese-Australian journalist and researcher who co-authored the 2020 Australian Strategic Policy Institute report Uyghurs for Sale on Uyghur forced labour in supply chains. In April 2021, following the report's role in prompting Western brands and legislators to act on Xinjiang cotton, [a Chinese outlet published an article accusing her of betraying the country, using drugs, and taking part in group sex](https://www.voanews.com/a/factcheck-china-journalists-smear-campaign/6743320.html), and her name became a trending topic on Weibo as Chinese state media outlets and nationalist accounts amplified the attack. Xu has said that [\"the Chinese state\" called her a \"female demon\" for her Xinjiang reporting, and that she was \"lynched in the Chinese media\"](https://www.abc.net.au/news/2021-04-15/vicky-xu-chinese-agents-detaining-friends-norman-swan-qanda/100073138) alongside other researchers who study the region. Commentators noted that [the campaign was also designed to place pressure on her family in China.](https://williamyang-35700.medium.com/chinese-journalist-vowed-to-fight-on-despite-becoming-target-of-the-chinese-smear-campaign-for-d711db6a92cb) Xu said [the campaign had cost her relationships with family and friends in China, with her grandfather banning family members from contacting her](https://www.news24.com.au/news/australia/no-sense-of-safety-australian-citizens-reveal-extraordinary-lengths-chinese-communist-party-will-go-to-silence-dissent/news-story/9f464527c808a537ab33373e970c6a42).<br><br>The r/QAnonCasualties community exists for people whose relatives have adopted QAnon beliefs. Research presented to the British Sociological Association's annual conference in April 2026 drew on [more than 5,000 testimonies from partners, children, and other relatives of believers, and found the beliefs contributing to divorce, estrangement, and abuse within families.](https://www.britsoc.co.uk/media-centre/press-releases/2026/april/how-qanon-conspiracy-beliefs-cause-divorce-estrangement-and-abuse-within-families-revealed-by-study/) A separate computational analysis of 12,747 narratives from the same community mapped how [relatives describe believers turning hostile, neglecting responsibilities, and growing estranged.](https://arxiv.org/abs/2601.17658) Contributors to the subreddit have [described ordinary interaction becoming impossible once a believer adopts a vocabulary the rest of the family no longer shares,](https://www.washingtonpost.com/nation/interactive/2021/conspiracy-theories-qanon-family-members/) with one Reddit group founder describing the experience of losing a parent to the belief system as \"exhausting, sad, scary, demoralizing.\"",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.001.md",
+                    "external_id": "A1013.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

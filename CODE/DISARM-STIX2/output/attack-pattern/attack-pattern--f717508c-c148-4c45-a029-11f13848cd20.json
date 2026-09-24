@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5498e72e-027d-4021-ba86-b7b3ef6e10f7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f717508c-c148-4c45-a029-11f13848cd20",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.489801Z",
+            "modified": "2026-09-24T23:25:11.489801Z",
+            "name": "Subject Dies",
+            "description": "Summary: The subject has died in connection with or as a result of activity.<br><br>Detail: This impact records the death of the subject where an analyst assesses a connection to the activity.<br><br>The most significant case is death which no person directly caused (e.g. through physical attack). Health and vaccine disinformation can lead people to act on a false treatment claim, or to decline an immunisation on the strength of a fabricated risk. Deaths of this kind can occur at considerable scale and be attributable to an information environment rather than to any single act identifiable against an individual.<br><br>Death can also follow from conditions the activity produced. A subject who dies of untreated illness in detention, or who dies after losing access to medical care when their finances were cut off, died as a consequence of the activity without being directly killed.<br><br>The impact also covers deaths where attribution is not yet possible. Early reporting frequently establishes that a subject died in connection with activity before it establishes how, and recording the death should not require a premature claim about its cause. Where later evidence establishes the route, the assessment should be revised to the more specific impact.<br><br>Example<br><br>After COVID-19 reached Iran in early 2020, a rumour circulated that drinking alcohol prevented or cured infection. Iran's national coroner's authority recorded [728 deaths from alcohol poisoning between 20 February and 7 April 2020, against 66 in the equivalent period the previous year.](https://www.aljazeera.com/news/2020/04/iran-700-dead-drinking-alcohol-cure-coronavirus-200427163529629.html) A later academic study put the fuller toll at [more than 6,150 poisonings and 804 deaths by 20 May 2020, with methanol ingested in the belief it protected against the virus, and some survivors left blind.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8111183/) In some regions, [alcohol poisoning mortality exceeded COVID-19 mortality over the same period.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8111183/)<br><br>A second pattern, in which disinformation suppresses immunisation and an outbreak follows, is documented in Samoa. UNICEF reported [that measles vaccination coverage in Samoa fell to 40 per cent for the first dose and 28 per cent for the second dose in 2018,](https://reliefweb.int/report/samoa/pacific-measles-outbreak-unicef-supporting-government-samoa-respond-outbreak) after the country's immunisation programme was suspended following the deaths of two infants shortly after vaccination in July that year. The World Health Organization said [the resulting crisis was driven in part by an anti-vaccine group's messaging on social media, which used the infants' deaths to discourage vaccination.](https://news.un.org/en/story/2019/12/1052801) Samoa's Ministry of Health reported a [cumulative total of 5,707 confirmed measles cases and 83 deaths by 20 January 2020, in a population of about 200,000.](https://reliefweb.int/report/samoa/health-emergency-operation-centre-update-measles-outbreak-january-20-2020)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1012.007.md",
+                    "external_id": "A1012.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

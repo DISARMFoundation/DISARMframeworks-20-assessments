@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c03cafb3-25fd-4e47-a900-2c9f2bc9ffc4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f8f00e4c-9a7f-4a09-8cdb-6fdcc0885412",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.485803Z",
+            "modified": "2026-09-24T23:25:11.485803Z",
+            "name": "Activity Restricts Subject's Freedom to Conduct a Business",
+            "description": "Activity has the assessed impact of limiting the subject's ability to operate or trade as a business, covered by Article 16 of the Charter of Fundamental Rights of the European Union.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1011.017.md",
+                    "external_id": "A1011.017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

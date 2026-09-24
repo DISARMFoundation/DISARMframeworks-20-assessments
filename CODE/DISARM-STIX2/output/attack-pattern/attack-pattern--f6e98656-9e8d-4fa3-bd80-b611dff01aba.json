@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a750f8e-b3c3-4f0d-b95e-0eb5398c8826",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f6e98656-9e8d-4fa3-bd80-b611dff01aba",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.485803Z",
+            "modified": "2026-09-24T23:25:11.485803Z",
+            "name": "Activity Restricts Subject's Use of Property",
+            "description": "Activity has the assessed impact of limiting the subject's ability to own, use, or dispose of their possessions, including money held in accounts, covered by Article 17(1) of the Charter of Fundamental Rights of the European Union.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1011.018.md",
+                    "external_id": "A1011.018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

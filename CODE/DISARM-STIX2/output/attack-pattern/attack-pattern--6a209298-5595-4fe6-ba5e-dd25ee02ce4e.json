@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1eb4fa7c-d61d-4224-ace5-e5ca9d0a5629",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6a209298-5595-4fe6-ba5e-dd25ee02ce4e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.510943Z",
+            "modified": "2026-09-24T23:25:11.510943Z",
+            "name": "Participant Exposure",
+            "description": "Summary: This Category contains Assessments of how activity reached an observed participant.<br><br>Detail: A8006: Participant Exposure records the route by which activity reached a participant; whether they were the direct recipients of activity, or observed activity directed at another subject.<br><br>Example<br><br>ICFJ and UNESCO analysed [more than 400,000 tweets over a thirteen-month period and 57,000 public Facebook posts and comments published between 2016 and 2021 concerning the journalist Maria Ressa.](https://www.voanews.com/a/press-freedom_analysis-trolling-reveals-efforts-undermine-philippine-journalist/6203673.html) [The researchers found much of the abuse and threats were fuelled by President Duterte's public statements demonising Ressa and Rappler as criminals, and that some of the attacks were coordinated or orchestrated, a hallmark of state-led disinformation campaigns.](https://www.icfj.org/our-work/maria-ressa-big-data-analysis) Ressa and Rappler faced a series of legal cases brought by Philippine authorities from 2018 onward. [Over the same period, a Social Weather Stations survey conducted 3 to 6 July 2020 found 51 per cent of Filipinos agreed it was dangerous to print or broadcast anything critical of the administration, even if it were true.](https://newsinfo.inquirer.net/1318217/51-of-filipinos-think-its-dangerous-to-publish-anything-critical-about-duterte-admin-sws)<br><br>This case demonstrates both A8006.001: Direct Recipient of Activity and A8006.002: Observer of Activity on one incident. Ressa is the direct recipient, since the abuse was addressed to her accounts. Filipinos who saw the campaign without being addressed by it are observers. The SWS survey records a perception of danger across that wider public, although it does not show that any respondent saw the campaign.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8006.md",
+                    "external_id": "A8006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

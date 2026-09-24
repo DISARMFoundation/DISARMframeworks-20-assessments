@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--30bb7ed2-8f94-4da7-8edf-2bd22728e302",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8d3d9b28-4e2b-4e17-8336-a0e9a8173fff",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.492816Z",
+            "modified": "2026-09-24T23:25:11.492816Z",
+            "name": "Subject Excluded from Community",
+            "description": "Summary: Activity has the assessed impact of resulting in the subject's exclusion from a community.<br><br>Detail: This impact records a community rejecting the subject.<br><br>Examples include activity marking the subject of activity as an outsider, a traitor, or a danger, and the community responds to what it now believes about them. In another, the activity makes association with the subject risky, and the community excludes them defensively without accepting any of the claims made about them. Further, activity can expose material about the subject which the community treats as shameful, and exclusion follows without anyone disputing the facts or believing an allegation.<br><br>Suppression activity aimed at exiles produces suspicion within the community about who is reporting to the home state, and individuals can become excluded on the basis of rumour rather than evidence.<br><br>Example<br><br>After Indian authorities identified a cluster of COVID-19 cases among attendees of a Tablighi Jamaat religious gathering in Delhi in March 2020, the hashtag [#CoronaJihad spread across Indian social media, framing Muslims as deliberately spreading the virus,](https://www.equaltimes.org/fuelled-by-social-media-in-india?lang=en) and had appeared close to 300,000 times on Twitter with a potential reach of 165 million people by the start of April, according to Equality Labs. The framing was carried by mainstream broadcasters and by figures in the ruling party, including the Union Minority Affairs Minister, who [described the gathering as a \"Talibani crime.\"](https://scroll.in/article/959806/covid-19-how-fake-news-and-modi-government-messaging-fuelled-indias-latest-spiral-of-islamophobia) Documented consequences included [calls for economic and social boycotts of Muslims circulating on social media and WhatsApp, and Muslim vendors and relief volunteers turned away or attacked.](https://www.hrw.org/news/2020/05/01/coronajihad-only-latest-manifestation-islamophobia-india-has-been-years-making) Muslim herders in Punjab and Himachal Pradesh found their milk refused by buyers or purchased at a fraction of the normal price after rumours that it carried the virus.<br><br>This case demonstrates exclusion measured in refused access rather than in stated rejection. Nobody was formally expelled from anything; vendors and relief volunteers were turned away, and buyers refused milk from Muslim herders, which is what makes the impact assessable without any declaration by the community. It also shows the impact operating against a group rather than a named individual.<br><br>A [BBC investigation](https://www.bbc.co.uk/news/magazine-37735368) into the use of private and sexually explicit images to shame and blackmail women across North Africa, the Middle East, and South Asia documented the social consequences for those exposed. Inam al-Asha, a psychologist and women's rights activist in Amman, said that even where a woman's life isn't ended physically by exposure, it is finished socially and professionally, as people stop associating with her and she ends up ostracised and isolated. She added that in the West a naked picture might only humiliate a girl, but in her own society it could lead to her death. In one case the BBC investigated, a 40-year-old health worker in India took her own life after a video of her being raped by a gang was circulated in her village on WhatsApp. She had appealed to village elders for help but, according to a colleague, received no support from a community that regarded her as sullied by the attack and partly to blame for it, and it was in the aftermath of that exclusion that she died.<br><br>This case demonstrates exclusion produced by shame rather than by belief in any claim about the subject, and the subject died by suicide in the aftermath of that exclusion.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.004.md",
+                    "external_id": "A1013.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

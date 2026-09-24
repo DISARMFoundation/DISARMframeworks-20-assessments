@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a479c03-23ed-4b6a-b893-49ddf1eaadeb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9f05a5de-3d7f-4f76-97f3-4581e9884f92",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.512943Z",
+            "modified": "2026-09-24T23:25:11.512943Z",
+            "name": "Lasting Impact",
+            "description": "Summary: Impact has been assessed to have outlasted the activity which caused it, but has not been established as an irreversible, permanent change.<br><br>Detail: This value records an impact which outlived the activity but has not been established as permanent.<br><br>A campaign ending in March and an effect still measurable in September is lasting, however long the campaign itself ran. The effect does not have to be continuing at the point of assessment, only to have extended past the activity.<br><br>Where the impact cannot be undone, use A9001.003: Permanent Impact instead. The difference is not how long the impact has run but whether the prior state can be returned to.<br><br>Example<br><br>From mid-2003 religious and political figures in northern Nigeria promoted claims that oral polio vaccine was contaminated with anti-fertility agents and HIV, and [five northern states suspended its use between July 2003 and August 2004](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4098042/). Zamfara, Kaduna, Bauchi, and Niger rejoined national immunisation days within a few months, while [Kano state did not allow vaccination to resume until a year later](https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.0040073). [Reported polio cases in Nigeria rose from 202 in 2002 to 1,143 in 2006, and Nigerian strains of the virus spread across Africa and beyond](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4098042/). Nigeria's last wild poliovirus case had onset in Borno State in August 2016, and [the WHO African region was certified free of wild poliovirus in August 2020](https://www.afro.who.int/news/africa-eradicates-wild-poliovirus).<br><br>This case demonstrates an impact which ran for more than a decade after an activity ended, and which was then reversed. Transmission continued long after vaccination resumed, so the effect is not co-extensive with the boycott. Certification in 2020 evidences that the prior state was recoverable. The individual paralysis cases inside this outbreak are not recoverable, and would be recorded separately against a physical harm impact carrying A9001.003: Permanent Impact.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact-qualifiers"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A9001.002.md",
+                    "external_id": "A9001.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

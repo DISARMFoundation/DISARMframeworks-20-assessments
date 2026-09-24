@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b963e447-81bf-4afd-a652-5de75b263011",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8d30e6b9-1c6c-4650-b0f7-6703b0efafe2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.492816Z",
+            "modified": "2026-09-24T23:25:11.492816Z",
+            "name": "Subject Loses Access to Support Network",
+            "description": "Summary: Activity has the assessed impact of separating the subject from the people or institutions they relied on for support.<br><br>Detail: This impact records the loss of the specific relationships the subject depended on. Support networks include family, colleagues, employers, professional associations, legal representation, community and religious organisations, and the informal networks which the subject relies on.<br><br>Isolation from a support network is distinct from a general reduction in the subject's social circle. What matters is not how many relationships were lost, but whether the ones which provided practical, financial, legal, or emotional support survived. A subject can retain a large network and be isolated in the sense meant here.<br><br>A subject without a support network is more exposed to every subsequent action taken against them, has fewer people to corroborate what is happening, and is less able to obtain legal or financial help. An outcome which begins as a consequence becomes a condition that later activity can exploit.<br><br>Example<br><br>Following the disputed 2020 Belarusian presidential election and the protests which followed, Belarusian authorities moved against the organisations which supported independent journalists and human rights defenders. On 27 August 2021 [the Supreme Court liquidated the Belarusian Association of Journalists, the only independent representative body for journalists and media workers in the country](https://www.ifj.org/media-centre/news/detail/category/europe/article/belarus-supreme-court-liquidated-the-belarusian-association-of-journalists), which had operated for more than twenty-five years and had over 1,300 members. The Belarusian Helsinki Committee, the country's oldest human rights organisation, was [liquidated on 1 October 2021, followed by Legal Initiative and Zvyano four days later.](https://www.fidh.org/en/issues/human-rights-defenders/belarus-remaining-human-rights-organisations-liquidated-in-belarus) At that point, [over thirty human rights defenders were already held behind bars, including seven members of the Viasna Human Rights Centre; further prosecutions of Viasna's leadership followed.](https://www.fidh.org/en/issues/human-rights-defenders/belarus-remaining-human-rights-organisations-liquidated-in-belarus) At least [275 organisations had been liquidated or were in the process of liquidation by early October 2021, including the Belarusian PEN Centre.](https://www.fidh.org/en/issues/human-rights-defenders/belarus-remaining-human-rights-organisations-liquidated-in-belarus)<br><br>This case demonstrates intentional disruption of a group's support network. The journalists were being prosecuted, stripped of accreditation, and imprisoned at the same time as the bodies which provided them with legal aid, professional representation, and safety support were dissolved by court order.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "external-to-campaign-impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A1013.006.md",
+                    "external_id": "A1013.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

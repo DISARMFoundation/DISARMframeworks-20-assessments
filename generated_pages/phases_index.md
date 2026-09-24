@@ -9,7 +9,7 @@
 <tr>
 <td><a href="phases/P20.md">P20</a></td>
 <td>Impact</td>
-<td>Impacts that activity can have. Analysts can assess which Impacts were intented (e.g. the Tactical goals of a campaign), and which were unintended.</td>
+<td>Impacts that activity can have. Analysts can assess which Impacts were intended (e.g. the Tactical goals of a campaign), and which were unintended.</td>
 </tr>
 <tr>
 <td><a href="phases/P21.md">P21</a></td>

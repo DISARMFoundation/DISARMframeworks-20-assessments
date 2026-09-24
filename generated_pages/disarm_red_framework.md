@@ -5,7 +5,8 @@
 <tr style="background-color:blue;color:white;">
 <td><a href="tactics/TA80.md">TA80 Within Campaign Impact</a></td>
 <td><a href="tactics/TA81.md">TA81 External to Campaign Impact</a></td>
-<td><a href="tactics/TA85.md">TA85 Online Techniques</a></td>
+<td><a href="tactics/TA82.md">TA82 Impact Qualifiers</a></td>
+<td><a href="tactics/TA85.md">TA85 Techniques</a></td>
 <td><a href="tactics/TA90.md">TA90 Scales Developed by non-DISARM Defenders</a></td>
 <td><a href="tactics/TA91.md">TA91 Vulnerability Exploited</a></td>
 <td><a href="tactics/TA92.md">TA92 Actor Analysis</a></td>
@@ -13,6 +14,7 @@
 <tr>
 <td><a href="techniques/A0001.md">A0001 Impact on Asset</a></td>
 <td><a href="techniques/A1001.md">A1001 Negative Reputational Impact</a></td>
+<td><a href="techniques/A9001.md">A9001 Impact Duration</a></td>
 <td><a href="techniques/A2001.md">A2001 Delivery Techniques</a></td>
 <td><a href="techniques/A6001.md">A6001 US DOJ Malign Foreign Influence Campaign Cycle Assessment</a></td>
 <td><a href="techniques/A7001.md">A7001 Cognitive Vulnerability</a></td>
@@ -21,6 +23,7 @@
 <tr>
 <td><a href="techniques/A0001.001.md">A0001.001 Increase Asset Legitimacy</a></td>
 <td><a href="techniques/A1001.001.md">A1001.001 Target of Activity Defamed</a></td>
+<td><a href="techniques/A9001.001.md">A9001.001 Fleeting Impact</a></td>
 <td><a href="techniques/A2001.001.md">A2001.001 Collaborating Assets Seed and Ping a Target</a></td>
 <td><a href="techniques/A6001.001.md">A6001.001 Research Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7001.001.md">A7001.001 Illusory Truth Effect</a></td>
@@ -29,7 +32,8 @@
 <tr>
 <td><a href="techniques/A0001.002.md">A0001.002 Persist in the Information Space</a></td>
 <td><a href="techniques/A1001.002.md">A1001.002 Target of Activity Undermined</a></td>
-<td><a href="techniques/A2001.002.md">A2001.002 Flood an Online Information Space</a></td>
+<td><a href="techniques/A9001.002.md">A9001.002 Lasting Impact</a></td>
+<td><a href="techniques/A2001.002.md">A2001.002 Crowd Out Contributions to an Information Space</a></td>
 <td><a href="techniques/A6001.002.md">A6001.002 Position Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7002.md">A7002 Technical Vulnerability</a></td>
 <td><a href="techniques/A8001.002.md">A8001.002 Paid Participant</a></td>
@@ -37,6 +41,7 @@
 <tr>
 <td><a href="techniques/A0001.003.md">A0001.003 Conceal Presence of Coordination</a></td>
 <td><a href="techniques/A1001.003.md">A1001.003 Target of Activity Discredited</a></td>
+<td><a href="techniques/A9001.003.md">A9001.003 Permanent Impact</a></td>
 <td><a href="techniques/A2001.003.md">A2001.003 Publish Material Unrelated to a Campaign Narrative</a></td>
 <td><a href="techniques/A6001.003.md">A6001.003 Tasking Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7002.001.md">A7002.001 Low Quality Non-English Language Moderation</a></td>
@@ -45,6 +50,7 @@
 <tr>
 <td><a href="techniques/A0001.004.md">A0001.004 Conceal Digital Infrastructure</a></td>
 <td><a href="techniques/A1001.004.md">A1001.004 Target of Activity Polarised</a></td>
+<td> </td>
 <td><a href="techniques/A3001.md">A3001 Psychological Techniques</a></td>
 <td><a href="techniques/A6001.004.md">A6001.004 Produce Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7003.md">A7003 Financial Vulnerability</a></td>
@@ -53,6 +59,7 @@
 <tr>
 <td><a href="techniques/A0002.md">A0002 Impact on Publication</a></td>
 <td><a href="techniques/A1002.md">A1002 Positive Reputational Impact</a></td>
+<td> </td>
 <td><a href="techniques/A3001.001.md">A3001.001 Coercion by Proxy</a></td>
 <td><a href="techniques/A6001.005.md">A6001.005 Publish Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7003.001.md">A7003.001 Structural Financial Dependence</a></td>
@@ -62,6 +69,7 @@
 <td><a href="techniques/A0002.001.md">A0002.001 Maximise Exposure to Publication</a></td>
 <td><a href="techniques/A1002.001.md">A1002.001 Target of Activity Reputation Increased</a></td>
 <td> </td>
+<td><a href="techniques/A3004.md">A3004 Harassment Techniques</a></td>
 <td><a href="techniques/A6001.006.md">A6001.006 Amplify Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7004.md">A7004 Social Vulnerability</a></td>
 <td><a href="techniques/A8002.002.md">A8002.002 Participant Aware of Contribution to Campaign</a></td>
@@ -70,6 +78,7 @@
 <td><a href="techniques/A0003.md">A0003 Impact on Campaign</a></td>
 <td><a href="techniques/A1002.002.md">A1002.002 Target of Activity Reputation Defended</a></td>
 <td> </td>
+<td><a href="techniques/A3004.001.md">A3004.001 Harass</a></td>
 <td><a href="techniques/A6001.007.md">A6001.007 Calibrate Campaign Cycle Phase</a></td>
 <td><a href="techniques/A7004.001.md">A7004.001 Subject Lacks Necessary Support Network</a></td>
 <td><a href="techniques/A8003.md">A8003 Alignment with Actor Goals</a></td>
@@ -78,6 +87,7 @@
 <td><a href="techniques/A0003.001.md">A0003.001 Break Association with Content</a></td>
 <td><a href="techniques/A1002.003.md">A1002.003 Target of Activity Prestige Increased</a></td>
 <td> </td>
+<td><a href="techniques/A3004.002.md">A3004.002 Harass en Masse</a></td>
 <td> </td>
 <td><a href="techniques/A7005.md">A7005 Information Vulnerability</a></td>
 <td><a href="techniques/A8003.001.md">A8003.001 Narrative Aligned with Actor Goals</a></td>
@@ -86,6 +96,7 @@
 <td><a href="techniques/A0003.002.md">A0003.002 Conceal Operational Activity</a></td>
 <td><a href="techniques/A1002.004.md">A1002.004 Support Cultivated for Target of Activity</a></td>
 <td> </td>
+<td><a href="techniques/A3004.003.md">A3004.003 Dox</a></td>
 <td> </td>
 <td><a href="techniques/A7005.001.md">A7005.001 Information Vacuum</a></td>
 <td><a href="techniques/A8003.002.md">A8003.002 Narrative Opposed to Actor Goals</a></td>
@@ -94,6 +105,7 @@
 <td><a href="techniques/A0003.003.md">A0003.003 Conceal Sponsorship of Activity</a></td>
 <td><a href="techniques/A1002.005.md">A1002.005 Supporters of Target of Activity Energised</a></td>
 <td> </td>
+<td><a href="techniques/A3004.004.md">A3004.004 Identify a Target to an Audience Likely to Act</a></td>
 <td> </td>
 <td><a href="techniques/A7005.002.md">A7005.002 Echo Chamber</a></td>
 <td><a href="techniques/A8003.003.md">A8003.003 Action Aligned with Actor Goals</a></td>
@@ -102,6 +114,7 @@
 <td><a href="techniques/A0003.004.md">A0003.004 Distance Individuals from Operation</a></td>
 <td><a href="techniques/A1002.006.md">A1002.006 Supporters Recruited for Target of Activity</a></td>
 <td> </td>
+<td><a href="techniques/A3004.005.md">A3004.005 Disrupt Event</a></td>
 <td> </td>
 <td> </td>
 <td><a href="techniques/A8003.004.md">A8003.004 Action Opposed to Actor Goals</a></td>
@@ -112,7 +125,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8004.md">A8004 Target Type</a></td>
+<td> </td>
+<td><a href="techniques/A8004.md">A8004 Targeting Intentionality</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -120,7 +134,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8004.001.md">A8004.001 Primary Target</a></td>
+<td> </td>
+<td><a href="techniques/A8004.001.md">A8004.001 Intended Target of Activity</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -128,7 +143,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8004.002.md">A8004.002 Secondary Target</a></td>
+<td> </td>
+<td><a href="techniques/A8004.002.md">A8004.002 Proxy Target of Activity</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -136,7 +152,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8005.md">A8005 Impact Intentionality</a></td>
+<td> </td>
+<td><a href="techniques/A8004.003.md">A8004.003 Unintended Subject of Activity</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -144,7 +161,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8005.001.md">A8005.001 Intended Impact</a></td>
+<td> </td>
+<td><a href="techniques/A8005.md">A8005 Impact Intentionality</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -152,7 +170,8 @@
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="techniques/A8005.002.md">A8005.002 Unintended Impact</a></td>
+<td> </td>
+<td><a href="techniques/A8005.001.md">A8005.001 Intended Impact</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -161,38 +180,7 @@
 <td> </td>
 <td> </td>
 <td> </td>
-</tr>
-<tr>
-<td> </td>
-<td><a href="techniques/A1004.md">A1004 Impact on Subject</a></td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td> </td>
-<td><a href="techniques/A1004.001.md">A1004.001 Activity Exhausts Subject's Resources</a></td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td> </td>
-<td><a href="techniques/A1004.002.md">A1004.002 Activity Causes Subject to Change Living Location</a></td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr>
-<td> </td>
-<td><a href="techniques/A1004.003.md">A1004.003 Subject Dies</a></td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+<td><a href="techniques/A8005.002.md">A8005.002 Unintended Impact</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -201,6 +189,7 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td><a href="techniques/A8006.md">A8006 Participant Exposure</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -209,6 +198,7 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td><a href="techniques/A8006.001.md">A8006.001 Direct Recipient of Activity</a></td>
 </tr>
 <tr>
 <td> </td>
@@ -217,10 +207,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td><a href="techniques/A8006.002.md">A8006.002 Observer of Activity</a></td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1005.003.md">A1005.003 Funds Raised for Target of Activity</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -233,10 +225,21 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1005.005.md">A1005.005 Subject's Funding Negatively Impacted</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1005.006.md">A1005.006 Activity Exhausts Subject's Resources</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -249,10 +252,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1006.001.md">A1006.001 Economic Geopolitical Advantage</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -265,10 +270,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1007.md">A1007 Impact on Behaviour</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -281,10 +288,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1007.002.md">A1007.002 Activity Dissuades Action</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -297,10 +306,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1007.004.md">A1007.004 Action Taken in Response to Activity</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -313,10 +324,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.001.md">A1008.001 Feeling of Admiration Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -329,10 +342,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.003.md">A1008.003 Feeling of Aesthetic Appreciation Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -345,10 +360,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.005.md">A1008.005 Feeling of Anger Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -361,10 +378,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.007.md">A1008.007 Feeling of Awe Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -377,10 +396,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.009.md">A1008.009 Feeling of Boredom Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -393,10 +414,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.011.md">A1008.011 Feeling of Confusion Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -409,10 +432,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.013.md">A1008.013 Feeling of Disgust Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -425,10 +450,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.015.md">A1008.015 Feeling of Entrancement Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -441,10 +468,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.017.md">A1008.017 Feeling of Fear Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -457,10 +486,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.019.md">A1008.019 Feeling of Interest Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -473,10 +504,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.021.md">A1008.021 Feeling of Nostalgia Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -489,10 +522,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.023.md">A1008.023 Feeling of Romance Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -505,10 +540,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.025.md">A1008.025 Feeling of Satisfaction Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -521,10 +558,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1008.027.md">A1008.027 Feeling of Surprise Evoked in Subject</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -537,10 +576,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1009.001.md">A1009.001 Spread Hate</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -553,10 +594,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1009.003.md">A1009.003 Activity Causes Loss of Existing Information</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -569,10 +612,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1010.001.md">A1010.001 Subject Disengages from Information Ecosystem</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -585,10 +630,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1010.003.md">A1010.003 Subject Disengages from Cause</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -601,10 +648,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1010.005.md">A1010.005 Subject Ceases Sharing Information</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -617,10 +666,21 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1010.007.md">A1010.007 Subject's Audience Disengages with Information Shared by Subject</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1010.008.md">A1010.008 Subject Develops Informational Learned Helplessness</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -633,18 +693,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
-</tr>
-<tr>
-<td> </td>
-<td><a href="techniques/A1011.001.md">A1011.001 Activity Restricts Subject's Financial Freedom</a></td>
-<td> </td>
-<td> </td>
-<td> </td>
 <td> </td>
 </tr>
 <tr>
 <td> </td>
-<td><a href="techniques/A1011.002.md">A1011.002 Activity Restricts Subject's Freedom of Speech</a></td>
+<td><a href="techniques/A1011.002.md">A1011.002 Activity Restricts Subject's Freedom of Expression</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -652,7 +706,8 @@
 </tr>
 <tr>
 <td> </td>
-<td><a href="techniques/A1011.003.md">A1011.003 Activity Restricts Subject's Freedom of Movement</a></td>
+<td><a href="techniques/A1011.003.md">A1011.003 Activity Restricts Subject's Freedom of Movement and Residence</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -665,10 +720,12 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
-<td><a href="techniques/A1011.005.md">A1011.005 Activity Restricts Subject's Journalistic Freedom</a></td>
+<td><a href="techniques/A1011.005.md">A1011.005 Activity Restricts Subject's Media Freedom</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -681,10 +738,291 @@
 <td> </td>
 <td> </td>
 <td> </td>
+<td> </td>
 </tr>
 <tr>
 <td> </td>
 <td><a href="techniques/A1011.007.md">A1011.007 Activity Restricts Legally Protected Freedom</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.008.md">A1011.008 Activity Deprives Subject of Liberty</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.009.md">A1011.009 Activity Interferes with Subject's Private and Family Life</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.010.md">A1011.010 Activity Compromises Subject's Personal Data</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.011.md">A1011.011 Activity Restricts Subject's Freedom of Religion or Belief</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.012.md">A1011.012 Activity Restricts Subject's Freedom of Assembly</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.013.md">A1011.013 Activity Restricts Subject's Freedom of Association</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.014.md">A1011.014 Activity Restricts Subject's Artistic Freedom</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.015.md">A1011.015 Activity Restricts Subject's Access to Education</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.016.md">A1011.016 Activity Restricts Subject's Freedom to Work</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.017.md">A1011.017 Activity Restricts Subject's Freedom to Conduct a Business</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.018.md">A1011.018 Activity Restricts Subject's Use of Property</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1011.019.md">A1011.019 Activity Undermines Subject's Protection from Forced Return</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.md">A1012 Physical Impacts on Individuals</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.001.md">A1012.001 Subject Physically Injured</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.002.md">A1012.002 Subject Subjected to Physical Sexual Violence</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.003.md">A1012.003 Subject's Physical Health Deteriorates</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.004.md">A1012.004 Subject Self-Harms</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.005.md">A1012.005 Subject Dies by Suicide</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.006.md">A1012.006 Subject Killed</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.007.md">A1012.007 Subject Dies</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.008.md">A1012.008 Subject Physically Detained</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1012.009.md">A1012.009 Subject Forced to Relocate</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.md">A1013 Impact on Relationships</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.001.md">A1013.001 Subject's Family Relationships Damaged</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.002.md">A1013.002 Subject Loses Employment</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.003.md">A1013.003 Subject Excluded from Profession</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.004.md">A1013.004 Subject Excluded from Community</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.005.md">A1013.005 Subject's Associates Distance Themselves from Subject</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.006.md">A1013.006 Subject Loses Access to Support Network</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.007.md">A1013.007 Subject's Service Providers Withdraw Service</a></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td><a href="techniques/A1013.008.md">A1013.008 Subject's Customers Withdraw Custom</a></td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>

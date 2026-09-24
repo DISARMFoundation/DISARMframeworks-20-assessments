@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f113d6a5-e6ca-46c6-bc29-3bda53494a73",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8c6308d9-ac73-419e-a0bc-26b413b69bf1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.512943Z",
+            "modified": "2026-09-24T23:25:11.512943Z",
+            "name": "Fleeting Impact",
+            "description": "Summary: Impact has been assessed to have resolved immediately or shortly after the associated activity was completed.<br><br>Detail: This value records an impact which did not outlast the activity which caused it. The subject, market, or audience returned to something close to its prior state immediately or shortly after the associated activity was completed.<br><br>A fleeting impact is not a failed operation. An actor whose objective was a brief market movement, a short-lived distraction, or a delay of a few hours has succeeded. This assessment records the duration of the effect rather than its adequacy.<br><br>Example<br><br>On 23 April 2013 the Associated Press Twitter account, which had close to two million followers, [posted that there had been two explosions at the White House and that President Obama had been injured](https://www.washingtonpost.com/news/worldviews/wp/2013/04/23/syrian-hackers-claim-ap-hack-that-tipped-stock-market-by-136-billion-is-it-terrorism/). The account had been compromised following attempts to steal AP journalists' passwords, and [the Syrian Electronic Army claimed responsibility](https://foreignpolicy.com/2013/04/23/syrian-electronic-army-takes-credit-for-hacking-ap-twitter-account/). The Dow fell 143 points within minutes, from 14,697 to 14,554, with [reports claiming the swing erased around 136 billion dollars in market value in 3 minutes.](https://www.washingtonpost.com/news/worldviews/wp/2013/04/23/syrian-hackers-claim-ap-hack-that-tipped-stock-market-by-136-billion-is-it-terrorism/) The White House press secretary confirmed the president was unharmed, and the market recovered as soon as the claim was understood to be false. This case demonstrates a substantial but temporary impact.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact-qualifiers"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A9001.001.md",
+                    "external_id": "A9001.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

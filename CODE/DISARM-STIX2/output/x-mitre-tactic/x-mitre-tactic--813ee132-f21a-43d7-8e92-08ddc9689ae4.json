@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--87f45b51-eda2-4300-8edb-756ad831118f",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--813ee132-f21a-43d7-8e92-08ddc9689ae4",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.449926Z",
+            "modified": "2026-09-24T23:25:11.449926Z",
+            "name": "Impact Qualifiers",
+            "description": "Assessments which describe a property of an impact rather than an impact in their own right. Each is applied as a descriptor to a TA81 or TA80 item.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/tactics/TA82.md",
+                    "external_id": "TA82"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "impact-qualifiers"
+        }
+    ]
+}

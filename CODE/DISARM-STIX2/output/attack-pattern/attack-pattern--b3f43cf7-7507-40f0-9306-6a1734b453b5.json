@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8251cd6a-4467-4825-82a9-e0ea329ca920",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b3f43cf7-7507-40f0-9306-6a1734b453b5",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.511945Z",
+            "modified": "2026-09-24T23:25:11.511945Z",
+            "name": "Direct Recipient of Activity",
+            "description": "Summary: The activity was delivered to, or carried out on, the participant individually.<br><br>Detail: A8006.001: Direct Recipient of Activity records that activity was directly carried out on a subject. For example, they received a message, were tagged in a post, or physically attacked. The distinction for this assessment is that the subject was directly interacted with by the actor.<br><br>Example<br><br>On 20 and 21 October 2020, in the run-up to the United States presidential election, [emails were sent to registered voters in Florida, Alaska, and Arizona.](https://www.osi.af.mil/News/Article-Display/Article/2395806/bulletin-iranian-spoofed-emails-portraying-the-proud-boys/) [Each was addressed to a named individual, cited that person's own registration details, and claimed the sender was \"in possession of all your information.\"](https://www.washingtonpost.com/technology/2020/10/20/proud-boys-emails-florida/) The messages told the recipient to vote for Donald Trump and threatened consequences if they did not, and were presented as coming from the Proud Boys. [The Office of the Director of National Intelligence and the FBI attributed the operation to Iran on 21 October 2020.](https://www.politifact.com/article/2020/oct/22/federal-officials-say-iran-sent-email-threats-vote/)<br><br>This case demonstrates direct delivery in a state-linked operation. Each recipient was addressed individually from their own registration record, so every voter who received an email is a direct recipient. People who learned of the campaign from the news coverage which followed take A8006.002: Observer of Activity instead, which separates the two values inside one operation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8006.001.md",
+                    "external_id": "A8006.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

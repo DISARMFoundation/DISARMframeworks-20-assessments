@@ -26,6 +26,7 @@ function handleTechniqueClick(box) {
 <tr bgcolor=fuchsia>
 <td>P20 Impact</td>
 <td>P20 Impact</td>
+<td>P20 Impact</td>
 <td>P21 Technique</td>
 <td>P22 Campaign Analysis</td>
 <td>P22 Campaign Analysis</td>
@@ -34,7 +35,8 @@ function handleTechniqueClick(box) {
 <tr bgcolor=aqua>
 <td>TA80 Within Campaign Impact</td>
 <td>TA81 External to Campaign Impact</td>
-<td>TA85 Online Techniques</td>
+<td>TA82 Impact Qualifiers</td>
+<td>TA85 Techniques</td>
 <td>TA90 Scales Developed by non-DISARM Defenders</td>
 <td>TA91 Vulnerability Exploited</td>
 <td>TA92 Actor Analysis</td>
@@ -42,6 +44,7 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0001">A0001 Impact on Asset<input type="checkbox" id="A0001check"  onclick="handleTechniqueClick('A0001')"></td>
 <td id="A1001">A1001 Negative Reputational Impact<input type="checkbox" id="A1001check"  onclick="handleTechniqueClick('A1001')"></td>
+<td id="A9001">A9001 Impact Duration<input type="checkbox" id="A9001check"  onclick="handleTechniqueClick('A9001')"></td>
 <td id="A2001">A2001 Delivery Techniques<input type="checkbox" id="A2001check"  onclick="handleTechniqueClick('A2001')"></td>
 <td id="A6001">A6001 US DOJ Malign Foreign Influence Campaign Cycle Assessment<input type="checkbox" id="A6001check"  onclick="handleTechniqueClick('A6001')"></td>
 <td id="A7001">A7001 Cognitive Vulnerability<input type="checkbox" id="A7001check"  onclick="handleTechniqueClick('A7001')"></td>
@@ -50,6 +53,7 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0001.001">A0001.001 Increase Asset Legitimacy<input type="checkbox" id="A0001.001check"  onclick="handleTechniqueClick('A0001.001')"></td>
 <td id="A1001.001">A1001.001 Target of Activity Defamed<input type="checkbox" id="A1001.001check"  onclick="handleTechniqueClick('A1001.001')"></td>
+<td id="A9001.001">A9001.001 Fleeting Impact<input type="checkbox" id="A9001.001check"  onclick="handleTechniqueClick('A9001.001')"></td>
 <td id="A2001.001">A2001.001 Collaborating Assets Seed and Ping a Target<input type="checkbox" id="A2001.001check"  onclick="handleTechniqueClick('A2001.001')"></td>
 <td id="A6001.001">A6001.001 Research Campaign Cycle Phase<input type="checkbox" id="A6001.001check"  onclick="handleTechniqueClick('A6001.001')"></td>
 <td id="A7001.001">A7001.001 Illusory Truth Effect<input type="checkbox" id="A7001.001check"  onclick="handleTechniqueClick('A7001.001')"></td>
@@ -58,7 +62,8 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0001.002">A0001.002 Persist in the Information Space<input type="checkbox" id="A0001.002check"  onclick="handleTechniqueClick('A0001.002')"></td>
 <td id="A1001.002">A1001.002 Target of Activity Undermined<input type="checkbox" id="A1001.002check"  onclick="handleTechniqueClick('A1001.002')"></td>
-<td id="A2001.002">A2001.002 Flood an Online Information Space<input type="checkbox" id="A2001.002check"  onclick="handleTechniqueClick('A2001.002')"></td>
+<td id="A9001.002">A9001.002 Lasting Impact<input type="checkbox" id="A9001.002check"  onclick="handleTechniqueClick('A9001.002')"></td>
+<td id="A2001.002">A2001.002 Crowd Out Contributions to an Information Space<input type="checkbox" id="A2001.002check"  onclick="handleTechniqueClick('A2001.002')"></td>
 <td id="A6001.002">A6001.002 Position Campaign Cycle Phase<input type="checkbox" id="A6001.002check"  onclick="handleTechniqueClick('A6001.002')"></td>
 <td id="A7002">A7002 Technical Vulnerability<input type="checkbox" id="A7002check"  onclick="handleTechniqueClick('A7002')"></td>
 <td id="A8001.002">A8001.002 Paid Participant<input type="checkbox" id="A8001.002check"  onclick="handleTechniqueClick('A8001.002')"></td>
@@ -66,6 +71,7 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0001.003">A0001.003 Conceal Presence of Coordination<input type="checkbox" id="A0001.003check"  onclick="handleTechniqueClick('A0001.003')"></td>
 <td id="A1001.003">A1001.003 Target of Activity Discredited<input type="checkbox" id="A1001.003check"  onclick="handleTechniqueClick('A1001.003')"></td>
+<td id="A9001.003">A9001.003 Permanent Impact<input type="checkbox" id="A9001.003check"  onclick="handleTechniqueClick('A9001.003')"></td>
 <td id="A2001.003">A2001.003 Publish Material Unrelated to a Campaign Narrative<input type="checkbox" id="A2001.003check"  onclick="handleTechniqueClick('A2001.003')"></td>
 <td id="A6001.003">A6001.003 Tasking Campaign Cycle Phase<input type="checkbox" id="A6001.003check"  onclick="handleTechniqueClick('A6001.003')"></td>
 <td id="A7002.001">A7002.001 Low Quality Non-English Language Moderation<input type="checkbox" id="A7002.001check"  onclick="handleTechniqueClick('A7002.001')"></td>
@@ -74,6 +80,7 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0001.004">A0001.004 Conceal Digital Infrastructure<input type="checkbox" id="A0001.004check"  onclick="handleTechniqueClick('A0001.004')"></td>
 <td id="A1001.004">A1001.004 Target of Activity Polarised<input type="checkbox" id="A1001.004check"  onclick="handleTechniqueClick('A1001.004')"></td>
+<td bgcolor=white> </td>
 <td id="A3001">A3001 Psychological Techniques<input type="checkbox" id="A3001check"  onclick="handleTechniqueClick('A3001')"></td>
 <td id="A6001.004">A6001.004 Produce Campaign Cycle Phase<input type="checkbox" id="A6001.004check"  onclick="handleTechniqueClick('A6001.004')"></td>
 <td id="A7003">A7003 Financial Vulnerability<input type="checkbox" id="A7003check"  onclick="handleTechniqueClick('A7003')"></td>
@@ -82,6 +89,7 @@ function handleTechniqueClick(box) {
 <tr>
 <td id="A0002">A0002 Impact on Publication<input type="checkbox" id="A0002check"  onclick="handleTechniqueClick('A0002')"></td>
 <td id="A1002">A1002 Positive Reputational Impact<input type="checkbox" id="A1002check"  onclick="handleTechniqueClick('A1002')"></td>
+<td bgcolor=white> </td>
 <td id="A3001.001">A3001.001 Coercion by Proxy<input type="checkbox" id="A3001.001check"  onclick="handleTechniqueClick('A3001.001')"></td>
 <td id="A6001.005">A6001.005 Publish Campaign Cycle Phase<input type="checkbox" id="A6001.005check"  onclick="handleTechniqueClick('A6001.005')"></td>
 <td id="A7003.001">A7003.001 Structural Financial Dependence<input type="checkbox" id="A7003.001check"  onclick="handleTechniqueClick('A7003.001')"></td>
@@ -91,6 +99,7 @@ function handleTechniqueClick(box) {
 <td id="A0002.001">A0002.001 Maximise Exposure to Publication<input type="checkbox" id="A0002.001check"  onclick="handleTechniqueClick('A0002.001')"></td>
 <td id="A1002.001">A1002.001 Target of Activity Reputation Increased<input type="checkbox" id="A1002.001check"  onclick="handleTechniqueClick('A1002.001')"></td>
 <td bgcolor=white> </td>
+<td id="A3004">A3004 Harassment Techniques<input type="checkbox" id="A3004check"  onclick="handleTechniqueClick('A3004')"></td>
 <td id="A6001.006">A6001.006 Amplify Campaign Cycle Phase<input type="checkbox" id="A6001.006check"  onclick="handleTechniqueClick('A6001.006')"></td>
 <td id="A7004">A7004 Social Vulnerability<input type="checkbox" id="A7004check"  onclick="handleTechniqueClick('A7004')"></td>
 <td id="A8002.002">A8002.002 Participant Aware of Contribution to Campaign<input type="checkbox" id="A8002.002check"  onclick="handleTechniqueClick('A8002.002')"></td>
@@ -99,6 +108,7 @@ function handleTechniqueClick(box) {
 <td id="A0003">A0003 Impact on Campaign<input type="checkbox" id="A0003check"  onclick="handleTechniqueClick('A0003')"></td>
 <td id="A1002.002">A1002.002 Target of Activity Reputation Defended<input type="checkbox" id="A1002.002check"  onclick="handleTechniqueClick('A1002.002')"></td>
 <td bgcolor=white> </td>
+<td id="A3004.001">A3004.001 Harass<input type="checkbox" id="A3004.001check"  onclick="handleTechniqueClick('A3004.001')"></td>
 <td id="A6001.007">A6001.007 Calibrate Campaign Cycle Phase<input type="checkbox" id="A6001.007check"  onclick="handleTechniqueClick('A6001.007')"></td>
 <td id="A7004.001">A7004.001 Subject Lacks Necessary Support Network<input type="checkbox" id="A7004.001check"  onclick="handleTechniqueClick('A7004.001')"></td>
 <td id="A8003">A8003 Alignment with Actor Goals<input type="checkbox" id="A8003check"  onclick="handleTechniqueClick('A8003')"></td>
@@ -107,6 +117,7 @@ function handleTechniqueClick(box) {
 <td id="A0003.001">A0003.001 Break Association with Content<input type="checkbox" id="A0003.001check"  onclick="handleTechniqueClick('A0003.001')"></td>
 <td id="A1002.003">A1002.003 Target of Activity Prestige Increased<input type="checkbox" id="A1002.003check"  onclick="handleTechniqueClick('A1002.003')"></td>
 <td bgcolor=white> </td>
+<td id="A3004.002">A3004.002 Harass en Masse<input type="checkbox" id="A3004.002check"  onclick="handleTechniqueClick('A3004.002')"></td>
 <td bgcolor=white> </td>
 <td id="A7005">A7005 Information Vulnerability<input type="checkbox" id="A7005check"  onclick="handleTechniqueClick('A7005')"></td>
 <td id="A8003.001">A8003.001 Narrative Aligned with Actor Goals<input type="checkbox" id="A8003.001check"  onclick="handleTechniqueClick('A8003.001')"></td>
@@ -115,6 +126,7 @@ function handleTechniqueClick(box) {
 <td id="A0003.002">A0003.002 Conceal Operational Activity<input type="checkbox" id="A0003.002check"  onclick="handleTechniqueClick('A0003.002')"></td>
 <td id="A1002.004">A1002.004 Support Cultivated for Target of Activity<input type="checkbox" id="A1002.004check"  onclick="handleTechniqueClick('A1002.004')"></td>
 <td bgcolor=white> </td>
+<td id="A3004.003">A3004.003 Dox<input type="checkbox" id="A3004.003check"  onclick="handleTechniqueClick('A3004.003')"></td>
 <td bgcolor=white> </td>
 <td id="A7005.001">A7005.001 Information Vacuum<input type="checkbox" id="A7005.001check"  onclick="handleTechniqueClick('A7005.001')"></td>
 <td id="A8003.002">A8003.002 Narrative Opposed to Actor Goals<input type="checkbox" id="A8003.002check"  onclick="handleTechniqueClick('A8003.002')"></td>
@@ -123,6 +135,7 @@ function handleTechniqueClick(box) {
 <td id="A0003.003">A0003.003 Conceal Sponsorship of Activity<input type="checkbox" id="A0003.003check"  onclick="handleTechniqueClick('A0003.003')"></td>
 <td id="A1002.005">A1002.005 Supporters of Target of Activity Energised<input type="checkbox" id="A1002.005check"  onclick="handleTechniqueClick('A1002.005')"></td>
 <td bgcolor=white> </td>
+<td id="A3004.004">A3004.004 Identify a Target to an Audience Likely to Act<input type="checkbox" id="A3004.004check"  onclick="handleTechniqueClick('A3004.004')"></td>
 <td bgcolor=white> </td>
 <td id="A7005.002">A7005.002 Echo Chamber<input type="checkbox" id="A7005.002check"  onclick="handleTechniqueClick('A7005.002')"></td>
 <td id="A8003.003">A8003.003 Action Aligned with Actor Goals<input type="checkbox" id="A8003.003check"  onclick="handleTechniqueClick('A8003.003')"></td>
@@ -131,6 +144,7 @@ function handleTechniqueClick(box) {
 <td id="A0003.004">A0003.004 Distance Individuals from Operation<input type="checkbox" id="A0003.004check"  onclick="handleTechniqueClick('A0003.004')"></td>
 <td id="A1002.006">A1002.006 Supporters Recruited for Target of Activity<input type="checkbox" id="A1002.006check"  onclick="handleTechniqueClick('A1002.006')"></td>
 <td bgcolor=white> </td>
+<td id="A3004.005">A3004.005 Disrupt Event<input type="checkbox" id="A3004.005check"  onclick="handleTechniqueClick('A3004.005')"></td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td id="A8003.004">A8003.004 Action Opposed to Actor Goals<input type="checkbox" id="A8003.004check"  onclick="handleTechniqueClick('A8003.004')"></td>
@@ -141,7 +155,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8004">A8004 Target Type<input type="checkbox" id="A8004check"  onclick="handleTechniqueClick('A8004')"></td>
+<td bgcolor=white> </td>
+<td id="A8004">A8004 Targeting Intentionality<input type="checkbox" id="A8004check"  onclick="handleTechniqueClick('A8004')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -149,7 +164,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8004.001">A8004.001 Primary Target<input type="checkbox" id="A8004.001check"  onclick="handleTechniqueClick('A8004.001')"></td>
+<td bgcolor=white> </td>
+<td id="A8004.001">A8004.001 Intended Target of Activity<input type="checkbox" id="A8004.001check"  onclick="handleTechniqueClick('A8004.001')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -157,7 +173,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8004.002">A8004.002 Secondary Target<input type="checkbox" id="A8004.002check"  onclick="handleTechniqueClick('A8004.002')"></td>
+<td bgcolor=white> </td>
+<td id="A8004.002">A8004.002 Proxy Target of Activity<input type="checkbox" id="A8004.002check"  onclick="handleTechniqueClick('A8004.002')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -165,7 +182,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8005">A8005 Impact Intentionality<input type="checkbox" id="A8005check"  onclick="handleTechniqueClick('A8005')"></td>
+<td bgcolor=white> </td>
+<td id="A8004.003">A8004.003 Unintended Subject of Activity<input type="checkbox" id="A8004.003check"  onclick="handleTechniqueClick('A8004.003')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -173,7 +191,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8005.001">A8005.001 Intended Impact<input type="checkbox" id="A8005.001check"  onclick="handleTechniqueClick('A8005.001')"></td>
+<td bgcolor=white> </td>
+<td id="A8005">A8005 Impact Intentionality<input type="checkbox" id="A8005check"  onclick="handleTechniqueClick('A8005')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -181,7 +200,8 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-<td id="A8005.002">A8005.002 Unintended Impact<input type="checkbox" id="A8005.002check"  onclick="handleTechniqueClick('A8005.002')"></td>
+<td bgcolor=white> </td>
+<td id="A8005.001">A8005.001 Intended Impact<input type="checkbox" id="A8005.001check"  onclick="handleTechniqueClick('A8005.001')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -190,38 +210,7 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-</tr>
-<tr>
-<td bgcolor=white> </td>
-<td id="A1004">A1004 Impact on Subject<input type="checkbox" id="A1004check"  onclick="handleTechniqueClick('A1004')"></td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-</tr>
-<tr>
-<td bgcolor=white> </td>
-<td id="A1004.001">A1004.001 Activity Exhausts Subject's Resources<input type="checkbox" id="A1004.001check"  onclick="handleTechniqueClick('A1004.001')"></td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-</tr>
-<tr>
-<td bgcolor=white> </td>
-<td id="A1004.002">A1004.002 Activity Causes Subject to Change Living Location<input type="checkbox" id="A1004.002check"  onclick="handleTechniqueClick('A1004.002')"></td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-</tr>
-<tr>
-<td bgcolor=white> </td>
-<td id="A1004.003">A1004.003 Subject Dies<input type="checkbox" id="A1004.003check"  onclick="handleTechniqueClick('A1004.003')"></td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
+<td id="A8005.002">A8005.002 Unintended Impact<input type="checkbox" id="A8005.002check"  onclick="handleTechniqueClick('A8005.002')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -230,6 +219,7 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td id="A8006">A8006 Participant Exposure<input type="checkbox" id="A8006check"  onclick="handleTechniqueClick('A8006')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -238,6 +228,7 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td id="A8006.001">A8006.001 Direct Recipient of Activity<input type="checkbox" id="A8006.001check"  onclick="handleTechniqueClick('A8006.001')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
@@ -246,10 +237,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td id="A8006.002">A8006.002 Observer of Activity<input type="checkbox" id="A8006.002check"  onclick="handleTechniqueClick('A8006.002')"></td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1005.003">A1005.003 Funds Raised for Target of Activity<input type="checkbox" id="A1005.003check"  onclick="handleTechniqueClick('A1005.003')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -262,10 +255,21 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1005.005">A1005.005 Subject's Funding Negatively Impacted<input type="checkbox" id="A1005.005check"  onclick="handleTechniqueClick('A1005.005')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1005.006">A1005.006 Activity Exhausts Subject's Resources<input type="checkbox" id="A1005.006check"  onclick="handleTechniqueClick('A1005.006')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -278,10 +282,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1006.001">A1006.001 Economic Geopolitical Advantage<input type="checkbox" id="A1006.001check"  onclick="handleTechniqueClick('A1006.001')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -294,10 +300,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1007">A1007 Impact on Behaviour<input type="checkbox" id="A1007check"  onclick="handleTechniqueClick('A1007')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -310,10 +318,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1007.002">A1007.002 Activity Dissuades Action<input type="checkbox" id="A1007.002check"  onclick="handleTechniqueClick('A1007.002')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -326,10 +336,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1007.004">A1007.004 Action Taken in Response to Activity<input type="checkbox" id="A1007.004check"  onclick="handleTechniqueClick('A1007.004')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -342,10 +354,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.001">A1008.001 Feeling of Admiration Evoked in Subject<input type="checkbox" id="A1008.001check"  onclick="handleTechniqueClick('A1008.001')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -358,10 +372,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.003">A1008.003 Feeling of Aesthetic Appreciation Evoked in Subject<input type="checkbox" id="A1008.003check"  onclick="handleTechniqueClick('A1008.003')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -374,10 +390,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.005">A1008.005 Feeling of Anger Evoked in Subject<input type="checkbox" id="A1008.005check"  onclick="handleTechniqueClick('A1008.005')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -390,10 +408,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.007">A1008.007 Feeling of Awe Evoked in Subject<input type="checkbox" id="A1008.007check"  onclick="handleTechniqueClick('A1008.007')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -406,10 +426,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.009">A1008.009 Feeling of Boredom Evoked in Subject<input type="checkbox" id="A1008.009check"  onclick="handleTechniqueClick('A1008.009')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -422,10 +444,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.011">A1008.011 Feeling of Confusion Evoked in Subject<input type="checkbox" id="A1008.011check"  onclick="handleTechniqueClick('A1008.011')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -438,10 +462,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.013">A1008.013 Feeling of Disgust Evoked in Subject<input type="checkbox" id="A1008.013check"  onclick="handleTechniqueClick('A1008.013')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -454,10 +480,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.015">A1008.015 Feeling of Entrancement Evoked in Subject<input type="checkbox" id="A1008.015check"  onclick="handleTechniqueClick('A1008.015')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -470,10 +498,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.017">A1008.017 Feeling of Fear Evoked in Subject<input type="checkbox" id="A1008.017check"  onclick="handleTechniqueClick('A1008.017')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -486,10 +516,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.019">A1008.019 Feeling of Interest Evoked in Subject<input type="checkbox" id="A1008.019check"  onclick="handleTechniqueClick('A1008.019')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -502,10 +534,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.021">A1008.021 Feeling of Nostalgia Evoked in Subject<input type="checkbox" id="A1008.021check"  onclick="handleTechniqueClick('A1008.021')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -518,10 +552,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.023">A1008.023 Feeling of Romance Evoked in Subject<input type="checkbox" id="A1008.023check"  onclick="handleTechniqueClick('A1008.023')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -534,10 +570,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.025">A1008.025 Feeling of Satisfaction Evoked in Subject<input type="checkbox" id="A1008.025check"  onclick="handleTechniqueClick('A1008.025')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -550,10 +588,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1008.027">A1008.027 Feeling of Surprise Evoked in Subject<input type="checkbox" id="A1008.027check"  onclick="handleTechniqueClick('A1008.027')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -566,10 +606,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1009.001">A1009.001 Spread Hate<input type="checkbox" id="A1009.001check"  onclick="handleTechniqueClick('A1009.001')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -582,10 +624,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1009.003">A1009.003 Activity Causes Loss of Existing Information<input type="checkbox" id="A1009.003check"  onclick="handleTechniqueClick('A1009.003')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -598,10 +642,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1010.001">A1010.001 Subject Disengages from Information Ecosystem<input type="checkbox" id="A1010.001check"  onclick="handleTechniqueClick('A1010.001')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -614,10 +660,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1010.003">A1010.003 Subject Disengages from Cause<input type="checkbox" id="A1010.003check"  onclick="handleTechniqueClick('A1010.003')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -630,10 +678,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1010.005">A1010.005 Subject Ceases Sharing Information<input type="checkbox" id="A1010.005check"  onclick="handleTechniqueClick('A1010.005')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -646,10 +696,21 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1010.007">A1010.007 Subject's Audience Disengages with Information Shared by Subject<input type="checkbox" id="A1010.007check"  onclick="handleTechniqueClick('A1010.007')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1010.008">A1010.008 Subject Develops Informational Learned Helplessness<input type="checkbox" id="A1010.008check"  onclick="handleTechniqueClick('A1010.008')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -662,18 +723,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
-</tr>
-<tr>
-<td bgcolor=white> </td>
-<td id="A1011.001">A1011.001 Activity Restricts Subject's Financial Freedom<input type="checkbox" id="A1011.001check"  onclick="handleTechniqueClick('A1011.001')"></td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
-<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
-<td id="A1011.002">A1011.002 Activity Restricts Subject's Freedom of Speech<input type="checkbox" id="A1011.002check"  onclick="handleTechniqueClick('A1011.002')"></td>
+<td id="A1011.002">A1011.002 Activity Restricts Subject's Freedom of Expression<input type="checkbox" id="A1011.002check"  onclick="handleTechniqueClick('A1011.002')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -681,7 +736,8 @@ function handleTechniqueClick(box) {
 </tr>
 <tr>
 <td bgcolor=white> </td>
-<td id="A1011.003">A1011.003 Activity Restricts Subject's Freedom of Movement<input type="checkbox" id="A1011.003check"  onclick="handleTechniqueClick('A1011.003')"></td>
+<td id="A1011.003">A1011.003 Activity Restricts Subject's Freedom of Movement and Residence<input type="checkbox" id="A1011.003check"  onclick="handleTechniqueClick('A1011.003')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -694,10 +750,12 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
-<td id="A1011.005">A1011.005 Activity Restricts Subject's Journalistic Freedom<input type="checkbox" id="A1011.005check"  onclick="handleTechniqueClick('A1011.005')"></td>
+<td id="A1011.005">A1011.005 Activity Restricts Subject's Media Freedom<input type="checkbox" id="A1011.005check"  onclick="handleTechniqueClick('A1011.005')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -710,10 +768,291 @@ function handleTechniqueClick(box) {
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
+<td bgcolor=white> </td>
 </tr>
 <tr>
 <td bgcolor=white> </td>
 <td id="A1011.007">A1011.007 Activity Restricts Legally Protected Freedom<input type="checkbox" id="A1011.007check"  onclick="handleTechniqueClick('A1011.007')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.008">A1011.008 Activity Deprives Subject of Liberty<input type="checkbox" id="A1011.008check"  onclick="handleTechniqueClick('A1011.008')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.009">A1011.009 Activity Interferes with Subject's Private and Family Life<input type="checkbox" id="A1011.009check"  onclick="handleTechniqueClick('A1011.009')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.010">A1011.010 Activity Compromises Subject's Personal Data<input type="checkbox" id="A1011.010check"  onclick="handleTechniqueClick('A1011.010')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.011">A1011.011 Activity Restricts Subject's Freedom of Religion or Belief<input type="checkbox" id="A1011.011check"  onclick="handleTechniqueClick('A1011.011')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.012">A1011.012 Activity Restricts Subject's Freedom of Assembly<input type="checkbox" id="A1011.012check"  onclick="handleTechniqueClick('A1011.012')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.013">A1011.013 Activity Restricts Subject's Freedom of Association<input type="checkbox" id="A1011.013check"  onclick="handleTechniqueClick('A1011.013')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.014">A1011.014 Activity Restricts Subject's Artistic Freedom<input type="checkbox" id="A1011.014check"  onclick="handleTechniqueClick('A1011.014')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.015">A1011.015 Activity Restricts Subject's Access to Education<input type="checkbox" id="A1011.015check"  onclick="handleTechniqueClick('A1011.015')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.016">A1011.016 Activity Restricts Subject's Freedom to Work<input type="checkbox" id="A1011.016check"  onclick="handleTechniqueClick('A1011.016')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.017">A1011.017 Activity Restricts Subject's Freedom to Conduct a Business<input type="checkbox" id="A1011.017check"  onclick="handleTechniqueClick('A1011.017')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.018">A1011.018 Activity Restricts Subject's Use of Property<input type="checkbox" id="A1011.018check"  onclick="handleTechniqueClick('A1011.018')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1011.019">A1011.019 Activity Undermines Subject's Protection from Forced Return<input type="checkbox" id="A1011.019check"  onclick="handleTechniqueClick('A1011.019')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012">A1012 Physical Impacts on Individuals<input type="checkbox" id="A1012check"  onclick="handleTechniqueClick('A1012')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.001">A1012.001 Subject Physically Injured<input type="checkbox" id="A1012.001check"  onclick="handleTechniqueClick('A1012.001')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.002">A1012.002 Subject Subjected to Physical Sexual Violence<input type="checkbox" id="A1012.002check"  onclick="handleTechniqueClick('A1012.002')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.003">A1012.003 Subject's Physical Health Deteriorates<input type="checkbox" id="A1012.003check"  onclick="handleTechniqueClick('A1012.003')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.004">A1012.004 Subject Self-Harms<input type="checkbox" id="A1012.004check"  onclick="handleTechniqueClick('A1012.004')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.005">A1012.005 Subject Dies by Suicide<input type="checkbox" id="A1012.005check"  onclick="handleTechniqueClick('A1012.005')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.006">A1012.006 Subject Killed<input type="checkbox" id="A1012.006check"  onclick="handleTechniqueClick('A1012.006')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.007">A1012.007 Subject Dies<input type="checkbox" id="A1012.007check"  onclick="handleTechniqueClick('A1012.007')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.008">A1012.008 Subject Physically Detained<input type="checkbox" id="A1012.008check"  onclick="handleTechniqueClick('A1012.008')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1012.009">A1012.009 Subject Forced to Relocate<input type="checkbox" id="A1012.009check"  onclick="handleTechniqueClick('A1012.009')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013">A1013 Impact on Relationships<input type="checkbox" id="A1013check"  onclick="handleTechniqueClick('A1013')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.001">A1013.001 Subject's Family Relationships Damaged<input type="checkbox" id="A1013.001check"  onclick="handleTechniqueClick('A1013.001')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.002">A1013.002 Subject Loses Employment<input type="checkbox" id="A1013.002check"  onclick="handleTechniqueClick('A1013.002')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.003">A1013.003 Subject Excluded from Profession<input type="checkbox" id="A1013.003check"  onclick="handleTechniqueClick('A1013.003')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.004">A1013.004 Subject Excluded from Community<input type="checkbox" id="A1013.004check"  onclick="handleTechniqueClick('A1013.004')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.005">A1013.005 Subject's Associates Distance Themselves from Subject<input type="checkbox" id="A1013.005check"  onclick="handleTechniqueClick('A1013.005')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.006">A1013.006 Subject Loses Access to Support Network<input type="checkbox" id="A1013.006check"  onclick="handleTechniqueClick('A1013.006')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.007">A1013.007 Subject's Service Providers Withdraw Service<input type="checkbox" id="A1013.007check"  onclick="handleTechniqueClick('A1013.007')"></td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+<td bgcolor=white> </td>
+</tr>
+<tr>
+<td bgcolor=white> </td>
+<td id="A1013.008">A1013.008 Subject's Customers Withdraw Custom<input type="checkbox" id="A1013.008check"  onclick="handleTechniqueClick('A1013.008')"></td>
+<td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
 <td bgcolor=white> </td>
@@ -726,24 +1065,28 @@ function handleTechniqueClick(box) {
 <ul>
 <li id="A0001text" style="display:none">A0001: Impact on Asset</li>
 <li id="A1001text" style="display:none">A1001: Negative Reputational Impact</li>
+<li id="A9001text" style="display:none">A9001: Impact Duration</li>
 <li id="A2001text" style="display:none">A2001: Delivery Techniques</li>
 <li id="A6001text" style="display:none">A6001: US DOJ Malign Foreign Influence Campaign Cycle Assessment</li>
 <li id="A7001text" style="display:none">A7001: Cognitive Vulnerability</li>
 <li id="A8001text" style="display:none">A8001: Participant Motive</li>
 <li id="A0001.001text" style="display:none">A0001.001: Increase Asset Legitimacy</li>
 <li id="A1001.001text" style="display:none">A1001.001: Target of Activity Defamed</li>
+<li id="A9001.001text" style="display:none">A9001.001: Fleeting Impact</li>
 <li id="A2001.001text" style="display:none">A2001.001: Collaborating Assets Seed and Ping a Target</li>
 <li id="A6001.001text" style="display:none">A6001.001: Research Campaign Cycle Phase</li>
 <li id="A7001.001text" style="display:none">A7001.001: Illusory Truth Effect</li>
 <li id="A8001.001text" style="display:none">A8001.001: Ideologically Aligned Participant</li>
 <li id="A0001.002text" style="display:none">A0001.002: Persist in the Information Space</li>
 <li id="A1001.002text" style="display:none">A1001.002: Target of Activity Undermined</li>
-<li id="A2001.002text" style="display:none">A2001.002: Flood an Online Information Space</li>
+<li id="A9001.002text" style="display:none">A9001.002: Lasting Impact</li>
+<li id="A2001.002text" style="display:none">A2001.002: Crowd Out Contributions to an Information Space</li>
 <li id="A6001.002text" style="display:none">A6001.002: Position Campaign Cycle Phase</li>
 <li id="A7002text" style="display:none">A7002: Technical Vulnerability</li>
 <li id="A8001.002text" style="display:none">A8001.002: Paid Participant</li>
 <li id="A0001.003text" style="display:none">A0001.003: Conceal Presence of Coordination</li>
 <li id="A1001.003text" style="display:none">A1001.003: Target of Activity Discredited</li>
+<li id="A9001.003text" style="display:none">A9001.003: Permanent Impact</li>
 <li id="A2001.003text" style="display:none">A2001.003: Publish Material Unrelated to a Campaign Narrative</li>
 <li id="A6001.003text" style="display:none">A6001.003: Tasking Campaign Cycle Phase</li>
 <li id="A7002.001text" style="display:none">A7002.001: Low Quality Non-English Language Moderation</li>
@@ -762,52 +1105,59 @@ function handleTechniqueClick(box) {
 <li id="A8002.001text" style="display:none">A8002.001: Participant Unaware of Contribution to Campaign</li>
 <li id="A0002.001text" style="display:none">A0002.001: Maximise Exposure to Publication</li>
 <li id="A1002.001text" style="display:none">A1002.001: Target of Activity Reputation Increased</li>
+<li id="A3004text" style="display:none">A3004: Harassment Techniques</li>
 <li id="A6001.006text" style="display:none">A6001.006: Amplify Campaign Cycle Phase</li>
 <li id="A7004text" style="display:none">A7004: Social Vulnerability</li>
 <li id="A8002.002text" style="display:none">A8002.002: Participant Aware of Contribution to Campaign</li>
 <li id="A0003text" style="display:none">A0003: Impact on Campaign</li>
 <li id="A1002.002text" style="display:none">A1002.002: Target of Activity Reputation Defended</li>
+<li id="A3004.001text" style="display:none">A3004.001: Harass</li>
 <li id="A6001.007text" style="display:none">A6001.007: Calibrate Campaign Cycle Phase</li>
 <li id="A7004.001text" style="display:none">A7004.001: Subject Lacks Necessary Support Network</li>
 <li id="A8003text" style="display:none">A8003: Alignment with Actor Goals</li>
 <li id="A0003.001text" style="display:none">A0003.001: Break Association with Content</li>
 <li id="A1002.003text" style="display:none">A1002.003: Target of Activity Prestige Increased</li>
+<li id="A3004.002text" style="display:none">A3004.002: Harass en Masse</li>
 <li id="A7005text" style="display:none">A7005: Information Vulnerability</li>
 <li id="A8003.001text" style="display:none">A8003.001: Narrative Aligned with Actor Goals</li>
 <li id="A0003.002text" style="display:none">A0003.002: Conceal Operational Activity</li>
 <li id="A1002.004text" style="display:none">A1002.004: Support Cultivated for Target of Activity</li>
+<li id="A3004.003text" style="display:none">A3004.003: Dox</li>
 <li id="A7005.001text" style="display:none">A7005.001: Information Vacuum</li>
 <li id="A8003.002text" style="display:none">A8003.002: Narrative Opposed to Actor Goals</li>
 <li id="A0003.003text" style="display:none">A0003.003: Conceal Sponsorship of Activity</li>
 <li id="A1002.005text" style="display:none">A1002.005: Supporters of Target of Activity Energised</li>
+<li id="A3004.004text" style="display:none">A3004.004: Identify a Target to an Audience Likely to Act</li>
 <li id="A7005.002text" style="display:none">A7005.002: Echo Chamber</li>
 <li id="A8003.003text" style="display:none">A8003.003: Action Aligned with Actor Goals</li>
 <li id="A0003.004text" style="display:none">A0003.004: Distance Individuals from Operation</li>
 <li id="A1002.006text" style="display:none">A1002.006: Supporters Recruited for Target of Activity</li>
+<li id="A3004.005text" style="display:none">A3004.005: Disrupt Event</li>
 <li id="A8003.004text" style="display:none">A8003.004: Action Opposed to Actor Goals</li>
 <li id="A1002.007text" style="display:none">A1002.007: Behaviour which is Target of Activity is Justified</li>
-<li id="A8004text" style="display:none">A8004: Target Type</li>
+<li id="A8004text" style="display:none">A8004: Targeting Intentionality</li>
 <li id="A1003text" style="display:none">A1003: Impact on Narrative</li>
-<li id="A8004.001text" style="display:none">A8004.001: Primary Target</li>
+<li id="A8004.001text" style="display:none">A8004.001: Intended Target of Activity</li>
 <li id="A1003.001text" style="display:none">A1003.001: Activity Increases Perceived Legitimacy of Narrative</li>
-<li id="A8004.002text" style="display:none">A8004.002: Secondary Target</li>
+<li id="A8004.002text" style="display:none">A8004.002: Proxy Target of Activity</li>
 <li id="A1003.002text" style="display:none">A1003.002: Activity Introduces Another Narrative which Competes with Target Narrative</li>
-<li id="A8005text" style="display:none">A8005: Impact Intentionality</li>
+<li id="A8004.003text" style="display:none">A8004.003: Unintended Subject of Activity</li>
 <li id="A1003.003text" style="display:none">A1003.003: Activity Suppresses Reach of Narrative</li>
-<li id="A8005.001text" style="display:none">A8005.001: Intended Impact</li>
+<li id="A8005text" style="display:none">A8005: Impact Intentionality</li>
 <li id="A1003.004text" style="display:none">A1003.004: Activity Increases Perceived Popularity of Narrative</li>
-<li id="A8005.002text" style="display:none">A8005.002: Unintended Impact</li>
+<li id="A8005.001text" style="display:none">A8005.001: Intended Impact</li>
 <li id="A1003.005text" style="display:none">A1003.005: Activity Distracts from Narrative</li>
-<li id="A1004text" style="display:none">A1004: Impact on Subject</li>
-<li id="A1004.001text" style="display:none">A1004.001: Activity Exhausts Subject's Resources</li>
-<li id="A1004.002text" style="display:none">A1004.002: Activity Causes Subject to Change Living Location</li>
-<li id="A1004.003text" style="display:none">A1004.003: Subject Dies</li>
+<li id="A8005.002text" style="display:none">A8005.002: Unintended Impact</li>
 <li id="A1005text" style="display:none">A1005: Financial Impact</li>
+<li id="A8006text" style="display:none">A8006: Participant Exposure</li>
 <li id="A1005.001text" style="display:none">A1005.001: Stocks of Target of Activity Negatively Impacted</li>
+<li id="A8006.001text" style="display:none">A8006.001: Direct Recipient of Activity</li>
 <li id="A1005.002text" style="display:none">A1005.002: Stocks of Target of Activity Positively Impacted</li>
+<li id="A8006.002text" style="display:none">A8006.002: Observer of Activity</li>
 <li id="A1005.003text" style="display:none">A1005.003: Funds Raised for Target of Activity</li>
 <li id="A1005.004text" style="display:none">A1005.004: Receive Funds from Target of Activity</li>
 <li id="A1005.005text" style="display:none">A1005.005: Subject's Funding Negatively Impacted</li>
+<li id="A1005.006text" style="display:none">A1005.006: Activity Exhausts Subject's Resources</li>
 <li id="A1006text" style="display:none">A1006: Geopolitical Impact</li>
 <li id="A1006.001text" style="display:none">A1006.001: Economic Geopolitical Advantage</li>
 <li id="A1006.002text" style="display:none">A1006.002: Domestic Political Advantage</li>
@@ -856,14 +1206,45 @@ function handleTechniqueClick(box) {
 <li id="A1010.005text" style="display:none">A1010.005: Subject Ceases Sharing Information</li>
 <li id="A1010.006text" style="display:none">A1010.006: Subject Self-Censors when Sharing Information</li>
 <li id="A1010.007text" style="display:none">A1010.007: Subject's Audience Disengages with Information Shared by Subject</li>
+<li id="A1010.008text" style="display:none">A1010.008: Subject Develops Informational Learned Helplessness</li>
 <li id="A1011text" style="display:none">A1011: Impact on Subject's Freedom</li>
-<li id="A1011.001text" style="display:none">A1011.001: Activity Restricts Subject's Financial Freedom</li>
-<li id="A1011.002text" style="display:none">A1011.002: Activity Restricts Subject's Freedom of Speech</li>
-<li id="A1011.003text" style="display:none">A1011.003: Activity Restricts Subject's Freedom of Movement</li>
+<li id="A1011.002text" style="display:none">A1011.002: Activity Restricts Subject's Freedom of Expression</li>
+<li id="A1011.003text" style="display:none">A1011.003: Activity Restricts Subject's Freedom of Movement and Residence</li>
 <li id="A1011.004text" style="display:none">A1011.004: Activity Restricts Subject's Academic Freedom</li>
-<li id="A1011.005text" style="display:none">A1011.005: Activity Restricts Subject's Journalistic Freedom</li>
+<li id="A1011.005text" style="display:none">A1011.005: Activity Restricts Subject's Media Freedom</li>
 <li id="A1011.006text" style="display:none">A1011.006: Activity Restricts Subject's Access to Information</li>
 <li id="A1011.007text" style="display:none">A1011.007: Activity Restricts Legally Protected Freedom</li>
+<li id="A1011.008text" style="display:none">A1011.008: Activity Deprives Subject of Liberty</li>
+<li id="A1011.009text" style="display:none">A1011.009: Activity Interferes with Subject's Private and Family Life</li>
+<li id="A1011.010text" style="display:none">A1011.010: Activity Compromises Subject's Personal Data</li>
+<li id="A1011.011text" style="display:none">A1011.011: Activity Restricts Subject's Freedom of Religion or Belief</li>
+<li id="A1011.012text" style="display:none">A1011.012: Activity Restricts Subject's Freedom of Assembly</li>
+<li id="A1011.013text" style="display:none">A1011.013: Activity Restricts Subject's Freedom of Association</li>
+<li id="A1011.014text" style="display:none">A1011.014: Activity Restricts Subject's Artistic Freedom</li>
+<li id="A1011.015text" style="display:none">A1011.015: Activity Restricts Subject's Access to Education</li>
+<li id="A1011.016text" style="display:none">A1011.016: Activity Restricts Subject's Freedom to Work</li>
+<li id="A1011.017text" style="display:none">A1011.017: Activity Restricts Subject's Freedom to Conduct a Business</li>
+<li id="A1011.018text" style="display:none">A1011.018: Activity Restricts Subject's Use of Property</li>
+<li id="A1011.019text" style="display:none">A1011.019: Activity Undermines Subject's Protection from Forced Return</li>
+<li id="A1012text" style="display:none">A1012: Physical Impacts on Individuals</li>
+<li id="A1012.001text" style="display:none">A1012.001: Subject Physically Injured</li>
+<li id="A1012.002text" style="display:none">A1012.002: Subject Subjected to Physical Sexual Violence</li>
+<li id="A1012.003text" style="display:none">A1012.003: Subject's Physical Health Deteriorates</li>
+<li id="A1012.004text" style="display:none">A1012.004: Subject Self-Harms</li>
+<li id="A1012.005text" style="display:none">A1012.005: Subject Dies by Suicide</li>
+<li id="A1012.006text" style="display:none">A1012.006: Subject Killed</li>
+<li id="A1012.007text" style="display:none">A1012.007: Subject Dies</li>
+<li id="A1012.008text" style="display:none">A1012.008: Subject Physically Detained</li>
+<li id="A1012.009text" style="display:none">A1012.009: Subject Forced to Relocate</li>
+<li id="A1013text" style="display:none">A1013: Impact on Relationships</li>
+<li id="A1013.001text" style="display:none">A1013.001: Subject's Family Relationships Damaged</li>
+<li id="A1013.002text" style="display:none">A1013.002: Subject Loses Employment</li>
+<li id="A1013.003text" style="display:none">A1013.003: Subject Excluded from Profession</li>
+<li id="A1013.004text" style="display:none">A1013.004: Subject Excluded from Community</li>
+<li id="A1013.005text" style="display:none">A1013.005: Subject's Associates Distance Themselves from Subject</li>
+<li id="A1013.006text" style="display:none">A1013.006: Subject Loses Access to Support Network</li>
+<li id="A1013.007text" style="display:none">A1013.007: Subject's Service Providers Withdraw Service</li>
+<li id="A1013.008text" style="display:none">A1013.008: Subject's Customers Withdraw Custom</li>
 </ul>
 
 </body>

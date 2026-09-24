@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0fcb436-ca49-411c-a064-7a5efb71c6fd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3d7e25b4-b07a-4e66-aa4f-efc6aeb96583",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-09-24T23:25:11.508942Z",
+            "modified": "2026-09-24T23:25:11.508942Z",
+            "name": "Intended Target of Activity",
+            "description": "Summary: The subject is assessed to be one the actor intended to impact.<br><br>Detail: A8004.001: Intended Target of Activity records that the actor set out to produce an impact on this participant.<br><br>Several participants can be intended targets of one activity. An actor who set out to impact specific demographics like a religious community, or an age group, intended to impact each member of it, so a member of that group is considered to be an intended target of activity on the same level as somebody the actor directly acted upon.<br><br>A8004.001: Intended Target of Activity is not impacted by how an incident reached the target. For example, an intended target can be sent material directly, or they can come across it on their feed, or be told about it by another individual.<br><br>Example<br><br>On 9 July 2015 Chinese authorities began a coordinated operation against human rights lawyers, known as the 709 crackdown, [detaining, interrogating, or disappearing about 300 lawyers, legal assistants, and advocates.](https://www.hrw.org/news/2025/07/06/china-10-years-since-709-crackdown-lawyers-still-under-fire) [Authorities have stripped at least twenty lawyers of their licences and sanctioned twenty-six more in the years since, including forcing some out of their firms under official pressure.](https://www.nchrd.org/2025/07/chinese-government-impunity-for-crackdown-on-lawyers-fuels-decade-of-repression/) [Subsequent changes to administrative measures gave judicial authorities extensive powers to suspend, cancel, or revoke the licences of lawyers and law firms.](https://www.nchrd.org/2025/07/chinese-government-impunity-for-crackdown-on-lawyers-fuels-decade-of-repression/) [Human Rights Watch and Amnesty International both recorded continuing repression, including ongoing disbarments, a decade later.](https://www.hrw.org/news/2025/07/06/china-10-years-since-709-crackdown-lawyers-still-under-fire)<br><br>This case shows lawyers directly acted upon functioning as both intended targets of activity and as proxy targets of activity; Chinese authorities intended both to stop their work as human rights lawyers (intended target), and to deter others from functioning as human rights lawyers (intended target) as a consequence of them seeing the targeting of individual lawyers (proxy target).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actor-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-assessments/blob/main/generated_pages/techniques/A8004.001.md",
+                    "external_id": "A8004.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}
