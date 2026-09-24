@@ -46,11 +46,17 @@ if (-not $commitDate) {
     exit 1
 }
 
-# 4) Set GIT_COMMITTER_DATE for this PowerShell process
+# 4) Set GIT_COMMITTER_DATE for this PowerShell process, and clear it afterwards
+#    so later commits in the same session don't inherit the tag's date
 $env:GIT_COMMITTER_DATE = $commitDate
 
 # 5) Create annotated tag using that date and message
-git tag -a $TagName $CommitHash -m $TagMessage
+try {
+    git tag -a $TagName $CommitHash -m $TagMessage
+}
+finally {
+    Remove-Item Env:GIT_COMMITTER_DATE -ErrorAction SilentlyContinue
+}
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "git tag failed."
