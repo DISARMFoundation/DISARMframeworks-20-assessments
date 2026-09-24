@@ -1,0 +1,2 @@
+.\CreateTaggedRelease.ps1 -CommitHash b9cc02e -TagName v2.0.1 -TagMessage "Initialize the assessment framework plus STIX bundle to align with Observations v2.0.1" 
+.\CreateTaggedRelease.ps1 -CommitHash 093baa0 -TagName v2.0.2 -TagMessage "First TIS Update plus terminology alignment phase->group, tactic->category, technique->assessment"

@@ -1,0 +1,1 @@
+.\CreateTaggedRelease.ps1 -CommitHash 7ce4875 -TagName v2.0.2 -TagMessage "Updated STIX bundle for TIS Changes (Stable)"
